@@ -1,0 +1,14 @@
+2018-08-13 13:36:18,266 - YouLoggerName - INFO - This is a test!135
+2018-08-16 17:19:05,035 - statisticNew - INFO - 当前爬取参数为{"customerOpenId":"c1852d65eec745d728a84de38b08293a","startTime":"2018-07-06 00:00:00","endTime":"2018-07-06 23:59:59","pageNum":"1"}
+2018-08-16 17:19:05,036 - statisticNew - INFO - 当前请求的头参数{'accessToken': '5b963bf9-d0d2-4f1a-b151-dbf21ddbeb90', 'accessKey': 'bf86280ad8f044b6b47b9bd634fdf2c10414873c', 'timestamp': '1534411145036', 'token': 'BDA9A658F1AC2B6F501DF32F08E16A2FD7E85A00'}
+2018-08-16 17:19:05,037 - statisticNew - INFO - parameter{'platformId': '20000004', 'customerOpenId': 'c1852d65eec745d728a84de38b08293a', 'riskId': 'bcc2cde547fe4440b3c9d6cfbfa6d6f5', 'entName': '灵宝市大旺副食商行', 'creditCode': '92411282MA40L9CL1J', 'startDate': '2018-07-06', 'endDate': '2018-07-07', 'accessToken': '5b963bf9-d0d2-4f1a-b151-dbf21ddbeb90', 'refreshToken': '81ba0cc7-d835-494e-a028-b6cc91597b95'}
+2018-08-16 17:19:05,038 - statisticNew - INFO - 当前请求的urlhttps://openrealm.duolabao.com/v1/customer/order/batch/query
+2018-08-16 17:19:05,213 - statisticNew - INFO - 正常爬取模块拿到数据
+2018-08-16 17:19:05,594 - statisticNew - INFO - 插入完成
+2018-08-16 17:19:05,595 - statisticNew - INFO - 当前爬取参数为{"customerOpenId":"c1852d65eec745d728a84de38b08293a","startTime":"2018-07-07 00:00:00","endTime":"2018-07-07 23:59:59","pageNum":"1"}
+2018-08-16 17:19:05,595 - statisticNew - INFO - 当前请求的头参数{'accessToken': '5b963bf9-d0d2-4f1a-b151-dbf21ddbeb90', 'accessKey': 'bf86280ad8f044b6b47b9bd634fdf2c10414873c', 'timestamp': '1534411145595', 'token': '044827923E891456B8C915AB33C3EEAAA4EA9919', 'Content-Type': 'application/json'}
+2018-08-16 17:19:05,595 - statisticNew - INFO - parameter{'platformId': '20000004', 'customerOpenId': 'c1852d65eec745d728a84de38b08293a', 'riskId': 'bcc2cde547fe4440b3c9d6cfbfa6d6f5', 'entName': '灵宝市大旺副食商行', 'creditCode': '92411282MA40L9CL1J', 'startDate': '2018-07-06', 'endDate': '2018-07-07', 'accessToken': '5b963bf9-d0d2-4f1a-b151-dbf21ddbeb90', 'refreshToken': '81ba0cc7-d835-494e-a028-b6cc91597b95'}
+2018-08-16 17:19:05,595 - statisticNew - INFO - 当前请求的urlhttps://openrealm.duolabao.com/v1/customer/order/batch/query
+2018-08-16 17:19:05,697 - statisticNew - INFO - 2018-07-07 00:00:00当天没有流水数据
+2018-08-16 17:19:05,995 - statisticNew - INFO - 抓取成功
+2018-08-16 17:19:06,011 - statisticNew - INFO - 发送消息

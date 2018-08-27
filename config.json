@@ -1,0 +1,24 @@
+{"tsskdb": "mongodb+taskdb://192.168.107.38:27017/pyspider_taskdb",
+      "projectdb": "mongodb+projectdb://192.168.107.38:27017/pyspider_projectdb",
+      "resultdb": "mongodb+resultdb://192.168.107.38:27017/pyspider_resultdb",
+      "message_queue": "redis://192.168.107.38:6379/0",
+    "webui": {
+        "username": "admin",
+        "password": "adminadmin",
+        "need-auth": true,
+        "host": "192.168.107.37",
+        "port": "5000",
+        "scheduler-rpc":"http://192.168.107.37:5002",
+        "fetcher-rpc": "http://192.168.107.38:5001"
+    },
+    "fetcher": {
+        "xmlrpc": true,
+        "xmlrpc-host": "0.0.0.0",
+        "xmlrpc-port": "5001"
+    },
+    "scheduler": {
+        "xmlrpc": true,
+        "xmlrpc-host": "0.0.0.0",
+        "xmlrpc-port": "5002"
+    }
+}

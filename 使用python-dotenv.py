@@ -1,0 +1,5 @@
+import os
+
+SECRET_KEY = os.getenv("MULTILINE_VAR")
+print(SECRET_KEY)
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
