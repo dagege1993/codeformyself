@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ECharts.js 数据绑定</title>
+    <meta charset="utf-8">
+    <script src="{{ url_for('static', filename='echarts.common.min.js') }}"></script>
+</head>
+<body>
+<div id="chartmain" style="width:600px; height: 400px;"></div>
+{{ time_list }}
+<script type="text/javascript">
+    //指定图标的配置和数据
+    var option = {
+        title: {
+            text: 'ECharts 数据统计'
+        },
+        legend: {
+            data: ['访问量', '用户量']
+        },
+        xAxis: {
+            data: ["Android", "IOS", "PC", "Other"]
+        },
+        yAxis: {},
+        series: [
+            {
+                name: '访问量',
+                type: 'bar',
+                data: [180, 420, 333, 83]
+            },
+            {
+                name: '用户量',
+                type: 'bar',
+                data: [125, 330, 230, 60]
+            }
+        ]
+    };
+    //初始化echarts实例
+    var myChart = echarts.init(document.getElementById('chartmain'));
+
+    //使用制定的配置项和数据显示图表
+    myChart.setOption(option);
+</script>
+</body>
+</html>
