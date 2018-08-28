@@ -12,9 +12,8 @@ hostname = '192.168.109.22'
 port = 5672
 virtual_host = '/'
 credentials = pika.PlainCredentials(username='bigdata', password='bigdata')
-parameters = pika.ConnectionParameters(host=hostname, port=port, virtual_host=virtual_host)
-# connection = pika.BlockingConnection(parameters)
-
+parameters = pika.ConnectionParameters(host=hostname, port=port, virtual_host=virtual_host, credentials=credentials)
+connection = pika.BlockingConnection(parameters)
 
 # connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
