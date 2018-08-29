@@ -46,22 +46,25 @@ import requests
 # f_read = f.read()
 # f_read_decode = f_read.decode('utf-8')
 # print(f_read_decode)
-'2018-08-27 10:41:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)'
 
-with open('shunqiwangspider.log', 'rb') as f:
-	logs = f.read().decode('utf-8')
+# '2018-08-27 10:41:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)'
+#
+# with open('shunqiwangspider.log', 'rb') as f:
+# 	logs = f.read().decode('utf-8')
+#
+# ll = re.findall('2018-[\d]{2}-[\d]{2} [\d]{2}:[\d]{2}:[\d]{2} \[scrapy.extensions.logstats\] INFO: Crawled .*', logs)
+# # time_list = []
+# page_rate = []
+# str_ll = str(ll)
+# time_list = re.findall('[\d]{2}:[\d]{2}:[\d]{2}', str_ll)
+# # print(time_list)
+# pages_min_list = re.findall('at' + ' \d+ ' + 'pages/min', logs)
+# print(pages_min_list)
+# pages_min_lists = []
+# for page in pages_min_list:
+# 	page_rate = page.split(' ')[1]
+# 	pages_min_lists.append(page_rate)
+# print(pages_min_lists)
+# print(len(pages_min_lists), len(time_list))
 
-ll = re.findall('2018-[\d]{2}-[\d]{2} [\d]{2}:[\d]{2}:[\d]{2} \[scrapy.extensions.logstats\] INFO: Crawled .*', logs)
-# time_list = []
-page_rate = []
-str_ll = str(ll)
-time_list = re.findall('[\d]{2}:[\d]{2}:[\d]{2}', str_ll)
-# print(time_list)
-pages_min_list = re.findall('at' + ' \d+ ' + 'pages/min', logs)
-print(pages_min_list)
-pages_min_lists = []
-for page in pages_min_list:
-	page_rate = page.split(' ')[1]
-	pages_min_lists.append(page_rate)
-print(pages_min_lists)
-print(len(pages_min_lists), len(time_list))
+# 就是a和b同时在 a在的时候b不在 a不在的时候b在 a和b都不在
