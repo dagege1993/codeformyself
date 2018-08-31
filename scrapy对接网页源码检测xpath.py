@@ -1631,7 +1631,8 @@ try {
 '''
 # tt.encode('utf8').decode('utf8')
 page_sel = scrapy.Selector(text=tt)
-result = page_sel.xpath('string(//*[@id="J-assets-pcredit"]/div/div/div[2]/div/p[2]/span/strong)').extract_first()
+# result = page_sel.xpath('string(//*[@id="J-assets-pcredit"]/div/div/div[2]/div/p[2]/span/strong)').extract_first()
+result = page_sel.xpath('//*[@id="credit-amount-container"]/span/text()').extract_first()
 print(result)
 
 # python本身默认编码为unicode

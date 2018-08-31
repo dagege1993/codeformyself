@@ -1,4 +1,5 @@
 import re
+import time
 
 import requests
 
@@ -68,3 +69,52 @@ import requests
 # print(len(pages_min_lists), len(time_list))
 
 # 就是a和b同时在 a在的时候b不在 a不在的时候b在 a和b都不在
+
+
+# import requests
+#
+# s = time.time()
+# url = 'http://192.168.107.38:5555/shunqiwangs/random'
+# response = requests.get(url)
+# t1 = time.time()
+# print("顺序执行时间：", int(t1 - s))
+# print(response)
+# proxy = 'http://' + response.text
+# if proxy == ''
+# 	return proxy
+
+
+ll = {'company': '',
+      'company_address': '',
+      'company_finance': '',
+      'company_license_number': '',
+      'company_office': '',
+      'company_phone_manager': '',
+      'company_product': '',
+      'company_state': '',
+      'company_tel': '',
+      'company_type': '',
+      'company_year': ''}
+
+
+# print(type(ll.values()))
+# print(dir(ll.values()))
+# print(ll.get('company_address'))
+# print(type(ll.get('company_address')))
+
+
+# def values(ll):
+# 	k = 0
+# 	for i in ll:
+# 		if i == '':
+# 			k += 1
+# 	print('k', k)
+# 	print(len(ll))
+
+
+# ll = ll.values()
+# values(ll)
+info = {}
+info['company'] = 0
+print(info.values())
+# info.keys() == '':
