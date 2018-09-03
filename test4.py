@@ -1,3 +1,4 @@
+import os
 import re
 import time
 
@@ -118,3 +119,6 @@ info = {}
 info['company'] = 0
 print(info.values())
 # info.keys() == '':
+
+
+print(os.getpid())   #获取当前进程id
