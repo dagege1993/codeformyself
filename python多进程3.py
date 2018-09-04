@@ -1,3 +1,4 @@
+import os
 from multiprocessing import Pool
 
 time_list = [{"startTime": "2018-07-30 00:00:00", "endTime": "2018-07-30 23:59:59"},
@@ -8,6 +9,7 @@ time_list = [{"startTime": "2018-07-30 00:00:00", "endTime": "2018-07-30 23:59:5
 
 
 def uu(i):
+	print(os.getpid())
 	print(i)
 
 
@@ -18,5 +20,6 @@ def uu(i):
 if __name__ == '__main__':
 	p = Pool(10)
 	p.map(uu, time_list)
+	
 	p.close()
 	p.join()

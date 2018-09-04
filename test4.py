@@ -97,7 +97,6 @@ ll = {'company': '',
       'company_type': '',
       'company_year': ''}
 
-
 # print(type(ll.values()))
 # print(dir(ll.values()))
 # print(ll.get('company_address'))
@@ -121,4 +120,6 @@ print(info.values())
 # info.keys() == '':
 
 
-print(os.getpid())   #获取当前进程id
+print(os.getpid())  # 获取当前进程id
+
+
