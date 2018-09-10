@@ -114,12 +114,27 @@ ll = {'company': '',
 
 # ll = ll.values()
 # values(ll)
-info = {}
-info['company'] = 0
-print(info.values())
+# info = {}
+# info['company'] = 0
+# print(info.values())
 # info.keys() == '':
 
 
-print(os.getpid())  # 获取当前进程id
+# print(os.getpid())  # 获取当前进程id
+
+# import redis
+#
+# host = '192.168.107.38'
+# port = '6379'
+# result = redis.StrictRedis(host=host, port=port, decode_responses=True)
+# counts = result.keys()
+# print(type(len(counts)))
+# while:
+#       len(counts) != 5
+#       print()
 
 
+import time
+while True:
+        time.sleep(2)
+        print(int(time.time()))
