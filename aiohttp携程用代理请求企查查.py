@@ -67,3 +67,4 @@ async with aiohttp.ClientSession() as session:
 session.get("http://python.org",
             proxy="http://user:pass@some.proxy.com")
 '''
+
