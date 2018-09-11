@@ -18,7 +18,9 @@ async def request():
 	url = 'https://www.baidu.com/'
 	print('Waiting for', url)
 	result = await get(url)
-	# print('Get response from', url, 'Result:', result)
+
+
+# print('Get response from', url, 'Result:', result)
 
 
 tasks = [asyncio.ensure_future(request()) for _ in range(1000)]  # 可以创建一个task
