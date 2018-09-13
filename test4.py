@@ -134,7 +134,10 @@ ll = {'company': '',
 #       print()
 
 
-import time
-while True:
-        time.sleep(2)
-        print(int(time.time()))
+# import time
+# while True:
+#         time.sleep(2)
+#         print(int(time.time()))
+
+
+
