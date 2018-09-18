@@ -25,5 +25,5 @@ if __name__ == '__main__':
 		'[{"type": "subHq", "event": "trade", "param": {"businessType": "coin-usdt-btc", "dType": 0, "size": 100}}]')  # 订阅交易数据
 	for i in range(5):
 		content = ws.recv()
-		print content
+		print (content)
 	ws.close()
