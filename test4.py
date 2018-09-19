@@ -140,4 +140,16 @@ ll = {'company': '',
 #         print(int(time.time()))
 
 
+# import urllib.request
+#
+# response = urllib.request.urlopen("https://www.baidu.com")
+# print(response.read().decode("utf-8"))
+
+
+# bytes 和str 的转换
+a = "李璐"
+b1 = bytes(a, encoding='utf-8')
+print(b1)
+newa1 = str(b1, encoding='utf-8')
+print(newa1)
 
