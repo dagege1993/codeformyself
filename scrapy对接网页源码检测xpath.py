@@ -6,7 +6,6 @@ import time
 import scrapy
 
 tt = """
-
 <!DOCTYPE html>
 <html class="">
 <head>
@@ -583,9 +582,9 @@ window.GLOBAL_NAV_DATA = {
 		<div class="ui-form-item-content">
 			<div class="range-quick-date fn-clear" >
 				<div class="quick-input-date fn-left">
-					<input type="text" name="beginDate" id="beginDate" value="2018.08.18" readonly="readonly" tabindex="1" class="date-search-input" autocomplete="off" />
+					<input type="text" name="beginDate" id="beginDate" value="2018.08.20" readonly="readonly" tabindex="1" class="date-search-input" autocomplete="off" />
 					<span class="ui-separator-pd">-</span>
-					<input type="text" name="endDate" id="endDate" value="2018.09.18" readonly="readonly" tabindex="2" class="date-search-input" autocomplete="off" />
+					<input type="text" name="endDate" id="endDate" value="2018.09.20" readonly="readonly" tabindex="2" class="date-search-input" autocomplete="off" />
      
 				</div>
 
@@ -793,8 +792,8 @@ seajs.use('consumeprod-record/1.1.7/knight', function(knight) {
 <form name="queryForm" id="queryForm" action="standard.htm" method="post">
   <input type="hidden" name="dateType" id="query-dateType" class="query-text" value="createDate" />
   <input type="hidden" name="dateRange" id="query-dateRange" class="query-text" value="oneMonth" />
-  <input type="hidden" name="beginDate" id="query-beginDate" class="query-text" value="2018.08.18" />
-  <input type="hidden" name="endDate" id="query-endDate" class="query-text" value="2018.09.18" />
+  <input type="hidden" name="beginDate" id="query-beginDate" class="query-text" value="2018.08.20" />
+  <input type="hidden" name="endDate" id="query-endDate" class="query-text" value="2018.09.20" />
   <input type="hidden" name="beginTime" id="query-beginTime" class="query-text" value="00:00" />
   <input type="hidden" name="endTime" id="query-endTime" class="query-text" value="24:00" />
   <input type="hidden" name="tradeType" id="query-tradeType" class="query-text" value="ALL" />
@@ -813,10 +812,10 @@ seajs.use('consumeprod-record/1.1.7/knight', function(knight) {
 </form>
 
 <script type="text/javascript">
-	var form_tk = "QKuyuU7xdpVdmTD6UdrzU9NJSrOylTzt";
+	var form_tk = "LoLHtBQNHjC0A0onHXDtNjarhyO8lcnu";
 	var json_ua = null;// 鍒嗗埆瀛樺偍token鍜寀a鏁版嵁
 </script>
-<script type="text/javascript" src="https://rds.alipay.com/ua_consumeprod_record_standard.js?t=2018091717"></script>
+<script type="text/javascript" src="https://rds.alipay.com/ua_consumeprod_record_standard.js?t=2018091916"></script>
 
 <script type="text/javascript">
 
@@ -1032,7 +1031,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
             startDay: 'Monday',
             format: DATE_FORMAT,
             showTime: false,
-            range: [DATE_DEFAULT, moment('2018.09.18', DATE_FORMAT)],
+            range: [DATE_DEFAULT, moment('2018.09.20', DATE_FORMAT)],
             onSelectDate: function(date) {
                 if (!silent) {
                     endCal.range([DATE_DEFAULT, date.format(DATE_FORMAT)])
@@ -1046,7 +1045,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
             startDay: 'Monday',
             format: DATE_FORMAT,
             showTime: false,
-            range: [moment('2018.08.18', DATE_FORMAT), moment('2018.09.18', DATE_FORMAT)],
+            range: [moment('2018.08.20', DATE_FORMAT), moment('2018.09.20', DATE_FORMAT)],
             onSelectDate: function(date) {
                 if (!silent) {
                     $('#endDate').val(date.format(DATE_FORMAT));
@@ -1178,14 +1177,14 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
+        <img src=https://t.alipayobjects.com/images/partner/TB1xIFEXFpHDuNjme5tXXX_wpXa_160X160 >
     </p>
 </td>
   <td class="time">
   	
     
           <p>今天</p>
-        <p class="text-muted">			08:50
+        <p class="text-muted">			13:55
 	</p>
   
   </td>
@@ -1196,19 +1195,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091822001423580574182015&gmtBizCreate=20180918085032"  target="_blank">北京地铁-二维码乘车 9月18日07:55进站乘车，行程记录请前往易通行查看</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=D_TRANSFER&bizInNo=20180920200040011100580067368871&gmtBizCreate=20180920135536"  target="_blank">转账</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				北京轨道交通路网管理有限公司 |
+    				\u9e4f\u6cfd\u0028\u9c81\u9e4f\u6cfd\u0029 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-1">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-1" href="javascript:;" data-clipboard-text="2018091822001423580574182015" title="2018091822001423580574182015">			2018...015
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-1" href="javascript:;" data-clipboard-text="20180920200040011100580067368871" title="20180920200040011100580067368871">			2018...871
 	</a>
     		</div>
 				
@@ -1219,7 +1218,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">- 3.87</span>
+    		                <span class="amount-pay">- 4280.00</span>
         	    </td>
 
             	
@@ -1227,11 +1226,12 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091822001423580574182015&gmtBizCreate=			20180918085032
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=D_TRANSFER&bizInNo=20180920200040011100580067368871&gmtBizCreate=			20180920135536
 	">&#xe60b;</a>
 	
         
-          </div>
+                <span class="record-icon icon-memo " data-info="转账" data-type="memo" data-bizId="biz20180920200040011100580067368871" >&#xe608;</span>
+      </div>
 
 </td>
 
@@ -1248,32 +1248,36 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
-                                         
-
-
-
-	
-
-		
-    
-                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091822001423580574182015" data-target="_blank">详情</li>
-              
-     
- 
-                            
-
-
-
-
-                            
-    
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091822001423580574182015&createDate=			20180918085032
-	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091822001423580574182015">备注</li>
+
+
+
+
+
+
+			<li class="btn-group-item" data-link="https://shenghuo.alipay.com/send/queryTransferDetail.htm?tradeNo=20180920200040011100580067368871" data-target="_blank">详情</li>
+
+
+
+
+
+
+
+
+    
+
+
+
+
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-18 08:50:32
-	~2018091822001423580574182015~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+    
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180920200040011100580067368871&createDate=			20180920135536
+	&bizType=D_TRANSFER" rel-id="" data-type="memo" data-bizId="biz20180920200040011100580067368871">备注</li>
+    
+    
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-20 13:55:36
+	~20180920200040011100580067368871~D_TRANSFER" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -1325,7 +1329,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
   	
     
           <p>今天</p>
-        <p class="text-muted">			07:42
+        <p class="text-muted">			08:49
 	</p>
   
   </td>
@@ -1336,19 +1340,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091822001423580573556218&gmtBizCreate=20180918074237"  target="_blank">商品</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018092022001423580587678786&gmtBizCreate=20180920084952"  target="_blank">北京地铁-二维码乘车 9月20日07:55进站乘车，行程记录请前往易通行查看</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				毛学莲 |
+    				北京轨道交通路网管理有限公司 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-2">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-2" href="javascript:;" data-clipboard-text="2018091822001423580573556218" title="2018091822001423580573556218">			2018...218
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-2" href="javascript:;" data-clipboard-text="2018092022001423580587678786" title="2018092022001423580587678786">			2018...786
 	</a>
     		</div>
 				
@@ -1359,7 +1363,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">- 4.50</span>
+    		                <span class="amount-pay">- 3.90</span>
         	    </td>
 
             	
@@ -1367,7 +1371,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091822001423580573556218&gmtBizCreate=			20180918074237
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018092022001423580587678786&gmtBizCreate=			20180920084952
 	">&#xe60b;</a>
 	
         
@@ -1396,7 +1400,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 		
     
-                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091822001423580573556218" data-target="_blank">详情</li>
+                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018092022001423580587678786" data-target="_blank">详情</li>
               
      
  
@@ -1408,12 +1412,12 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
                             
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091822001423580573556218&createDate=			20180918074237
-	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091822001423580573556218">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018092022001423580587678786&createDate=			20180920084952
+	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018092022001423580587678786">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-18 07:42:37
-	~2018091822001423580573556218~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-20 08:49:52
+	~2018092022001423580587678786~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -1443,14 +1447,14 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://gw.alipayobjects.com/zos/mwalletmng/HMrWjUrCzaboAbeczVqY.png >
+        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
     </p>
 </td>
   <td class="time">
   	
     
           <p>今天</p>
-        <p class="text-muted">			05:08
+        <p class="text-muted">			07:44
 	</p>
   
   </td>
@@ -1461,19 +1465,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180918314232314581&gmtBizCreate=20180918050841"  target="_blank">余额宝-2018.09.17-收益发放</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018092022001423580587466736&gmtBizCreate=20180920074419"  target="_blank">商品</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				中欧基金管理有限公司 |
+    				毛学莲 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-3">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-3" href="javascript:;" data-clipboard-text="20180918314232314581" title="20180918314232314581">			2018...581
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-3" href="javascript:;" data-clipboard-text="2018092022001423580587466736" title="2018092022001423580587466736">			2018...736
 	</a>
     		</div>
 				
@@ -1484,7 +1488,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">+ 0.79</span>
+    		                <span class="amount-pay">- 3.00</span>
         	    </td>
 
             	
@@ -1492,7 +1496,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180918314232314581&gmtBizCreate=			20180918050841
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018092022001423580587466736&gmtBizCreate=			20180920074419
 	">&#xe60b;</a>
 	
         
@@ -1513,20 +1517,32 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
-        
+                                         
+
+
+
+	
+
+		
+    
+                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018092022001423580587466736" data-target="_blank">详情</li>
+              
+     
+ 
+                            
 
 
 
 
-        
+                            
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180918314232314581&createDate=			20180918050841
-	&bizType=MINITRANS" rel-id="" data-type="memo" data-bizId="biz20180918314232314581">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018092022001423580587466736&createDate=			20180920074419
+	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018092022001423580587466736">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-18 05:08:41
-	~20180918314232314581~MINITRANS"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-20 07:44:19
+	~2018092022001423580587466736~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -1556,15 +1572,14 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
+        <img src=https://gw.alipayobjects.com/zos/mwalletmng/HMrWjUrCzaboAbeczVqY.png >
     </p>
 </td>
   <td class="time">
   	
     
-          <p>昨天</p>
-
-        <p class="text-muted">			20:57
+          <p>今天</p>
+        <p class="text-muted">			04:37
 	</p>
   
   </td>
@@ -1575,19 +1590,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091722001423580573004325&gmtBizCreate=20180917205724"  target="_blank">北京地铁-二维码乘车 9月17日19:55进站乘车，行程记录请前往易通行查看</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180920322162632581&gmtBizCreate=20180920043731"  target="_blank">余额宝-2018.09.19-收益发放</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				北京轨道交通路网管理有限公司 |
+    				中欧基金管理有限公司 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-4">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-4" href="javascript:;" data-clipboard-text="2018091722001423580573004325" title="2018091722001423580573004325">			2018...325
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-4" href="javascript:;" data-clipboard-text="20180920322162632581" title="20180920322162632581">			2018...581
 	</a>
     		</div>
 				
@@ -1598,7 +1613,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">- 3.90</span>
+    		                <span class="amount-pay">+ 0.78</span>
         	    </td>
 
             	
@@ -1606,7 +1621,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091722001423580573004325&gmtBizCreate=			20180917205724
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180920322162632581&gmtBizCreate=			20180920043731
 	">&#xe60b;</a>
 	
         
@@ -1627,32 +1642,20 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
-                                         
-
-
-
-	
-
-		
-    
-                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091722001423580573004325" data-target="_blank">详情</li>
-              
-     
- 
-                            
+        
 
 
 
 
-                            
+        
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091722001423580573004325&createDate=			20180917205724
-	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091722001423580573004325">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180920322162632581&createDate=			20180920043731
+	&bizType=MINITRANS" rel-id="" data-type="memo" data-bizId="biz20180920322162632581">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-17 20:57:24
-	~2018091722001423580573004325~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-20 04:37:31
+	~20180920322162632581~MINITRANS"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -1682,7 +1685,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://pic.alipayobjects.com/oss-fix/i/mobileapp/png/201410/3jU228X11B.png_fix.png >
+        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
     </p>
 </td>
   <td class="time">
@@ -1690,7 +1693,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
     
           <p>昨天</p>
 
-        <p class="text-muted">			18:06
+        <p class="text-muted">			22:34
 	</p>
   
   </td>
@@ -1701,22 +1704,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=YEB&bizInNo=20180917009130201010580024001279&gmtBizCreate=20180917180650"  target="_blank">余额宝-转出到银行卡</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580587111493&gmtBizCreate=20180919223441"  target="_blank">华欣超市清河店确认码0058</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				中国建设银行 |
+    				华欣超市清河店 |
                 </p>
     		        	
-        	        		<p class="no ft-gray p-inline">
-        			...1974|*令志 |
-        		</p>
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-5">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-5" href="javascript:;" data-clipboard-text="20180917009130201010580024001279" title="20180917009130201010580024001279">			2018...279
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-5" href="javascript:;" data-clipboard-text="2018091922001423580587111493" title="2018091922001423580587111493">			2018...493
 	</a>
     		</div>
 				
@@ -1727,7 +1727,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay"> 100.00</span>
+    		                <span class="amount-pay">- 6.37</span>
         	    </td>
 
             	
@@ -1735,7 +1735,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=YEB&bizInNo=20180917009130201010580024001279&gmtBizCreate=			20180917180650
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580587111493&gmtBizCreate=			20180919223441
 	">&#xe60b;</a>
 	
         
@@ -1756,26 +1756,32 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
-          
+                                         
 
-          <li class="btn-group-item" data-link="https://yebprod.alipay.com/yeb/redeemDetail.htm?orderNo=20180917009130201010580024001279" data-target="_blank">详情</li>
+
+
+	
+
+		
     
+                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091922001423580587111493" data-target="_blank">详情</li>
+              
+     
+ 
+                            
 
 
-          
 
 
-
-
-          
+                            
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180917009130201010580024001279&createDate=			20180917180650
-	&bizType=YEB" rel-id="" data-type="memo" data-bizId="biz20180917009130201010580024001279">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091922001423580587111493&createDate=			20180919223441
+	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091922001423580587111493">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-17 18:06:50
-	~20180917009130201010580024001279~YEB" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-19 22:34:41
+	~2018091922001423580587111493~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -1813,7 +1819,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
     
           <p>昨天</p>
 
-        <p class="text-muted">			08:49
+        <p class="text-muted">			20:44
 	</p>
   
   </td>
@@ -1824,7 +1830,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091722001423580567924137&gmtBizCreate=20180917084952"  target="_blank">北京地铁-二维码乘车 9月17日07:53进站乘车，行程记录请前往易通行查看</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580587017863&gmtBizCreate=20180919204423"  target="_blank">北京地铁-二维码乘车 9月19日19:48进站乘车，行程记录请前往易通行查看</a>
                     </p>
     	
 				        	
@@ -1836,7 +1842,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-6">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-6" href="javascript:;" data-clipboard-text="2018091722001423580567924137" title="2018091722001423580567924137">			2018...137
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-6" href="javascript:;" data-clipboard-text="2018091922001423580587017863" title="2018091922001423580587017863">			2018...863
 	</a>
     		</div>
 				
@@ -1847,7 +1853,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">- 3.87</span>
+    		                <span class="amount-pay">- 4.00</span>
         	    </td>
 
             	
@@ -1855,7 +1861,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091722001423580567924137&gmtBizCreate=			20180917084952
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580587017863&gmtBizCreate=			20180919204423
 	">&#xe60b;</a>
 	
         
@@ -1884,7 +1890,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 		
     
-                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091722001423580567924137" data-target="_blank">详情</li>
+                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091922001423580587017863" data-target="_blank">详情</li>
               
      
  
@@ -1896,12 +1902,12 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
                             
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091722001423580567924137&createDate=			20180917084952
-	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091722001423580567924137">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091922001423580587017863&createDate=			20180919204423
+	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091922001423580587017863">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-17 08:49:52
-	~2018091722001423580567924137~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-19 20:44:23
+	~2018091922001423580587017863~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -1931,7 +1937,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
+        <img src=https://gw.alipayobjects.com/zos/mwalletmng/HMrWjUrCzaboAbeczVqY.png >
     </p>
 </td>
   <td class="time">
@@ -1939,7 +1945,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
     
           <p>昨天</p>
 
-        <p class="text-muted">			07:39
+        <p class="text-muted">			09:37
 	</p>
   
   </td>
@@ -1950,19 +1956,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091722001423580567454054&gmtBizCreate=20180917073950"  target="_blank">商品</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180919318955978581&gmtBizCreate=20180919093716"  target="_blank">余额宝-2018.09.18-收益发放</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				毛学莲 |
+    				中欧基金管理有限公司 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-7">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-7" href="javascript:;" data-clipboard-text="2018091722001423580567454054" title="2018091722001423580567454054">			2018...054
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-7" href="javascript:;" data-clipboard-text="20180919318955978581" title="20180919318955978581">			2018...581
 	</a>
     		</div>
 				
@@ -1973,7 +1979,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">- 4.50</span>
+    		                <span class="amount-pay">+ 0.78</span>
         	    </td>
 
             	
@@ -1981,7 +1987,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091722001423580567454054&gmtBizCreate=			20180917073950
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180919318955978581&gmtBizCreate=			20180919093716
 	">&#xe60b;</a>
 	
         
@@ -2002,32 +2008,20 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
-                                         
-
-
-
-	
-
-		
-    
-                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091722001423580567454054" data-target="_blank">详情</li>
-              
-     
- 
-                            
+        
 
 
 
 
-                            
+        
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091722001423580567454054&createDate=			20180917073950
-	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091722001423580567454054">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180919318955978581&createDate=			20180919093716
+	&bizType=MINITRANS" rel-id="" data-type="memo" data-bizId="biz20180919318955978581">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-17 07:39:50
-	~2018091722001423580567454054~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-19 09:37:16
+	~20180919318955978581~MINITRANS"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -2057,7 +2051,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://gw.alipayobjects.com/zos/mwalletmng/HMrWjUrCzaboAbeczVqY.png >
+        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
     </p>
 </td>
   <td class="time">
@@ -2065,7 +2059,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
     
           <p>昨天</p>
 
-        <p class="text-muted">			05:02
+        <p class="text-muted">			08:46
 	</p>
   
   </td>
@@ -2076,19 +2070,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180917311317869581&gmtBizCreate=20180917050231"  target="_blank">余额宝-2018.09.16-收益发放</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580582095558&gmtBizCreate=20180919084651"  target="_blank">北京地铁-二维码乘车 9月19日07:52进站乘车，行程记录请前往易通行查看</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				中欧基金管理有限公司 |
+    				北京轨道交通路网管理有限公司 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-8">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-8" href="javascript:;" data-clipboard-text="20180917311317869581" title="20180917311317869581">			2018...581
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-8" href="javascript:;" data-clipboard-text="2018091922001423580582095558" title="2018091922001423580582095558">			2018...558
 	</a>
     		</div>
 				
@@ -2099,7 +2093,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">+ 0.79</span>
+    		                <span class="amount-pay">- 4.00</span>
         	    </td>
 
             	
@@ -2107,7 +2101,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=MINITRANS&bizInNo=20180917311317869581&gmtBizCreate=			20180917050231
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580582095558&gmtBizCreate=			20180919084651
 	">&#xe60b;</a>
 	
         
@@ -2128,20 +2122,32 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
-        
+                                         
+
+
+
+	
+
+		
+    
+                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091922001423580582095558" data-target="_blank">详情</li>
+              
+     
+ 
+                            
 
 
 
 
-        
+                            
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180917311317869581&createDate=			20180917050231
-	&bizType=MINITRANS" rel-id="" data-type="memo" data-bizId="biz20180917311317869581">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091922001423580582095558&createDate=			20180919084651
+	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091922001423580582095558">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-17 05:02:31
-	~20180917311317869581~MINITRANS"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-19 08:46:51
+	~2018091922001423580582095558~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -2171,7 +2177,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://gw.alipayobjects.com/zos/mwalletmng/HMrWjUrCzaboAbeczVqY.png >
+        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
     </p>
 </td>
   <td class="time">
@@ -2179,7 +2185,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
     
           <p>昨天</p>
 
-        <p class="text-muted">			02:12
+        <p class="text-muted">			07:41
 	</p>
   
   </td>
@@ -2190,19 +2196,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=YEB&bizInNo=20180917009130101000580028337767&gmtBizCreate=20180917021220"  target="_blank">余额宝-自动转入</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580582823454&gmtBizCreate=20180919074128"  target="_blank">商品</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				中欧基金管理有限公司 |
+    				毛学莲 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-9">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-9" href="javascript:;" data-clipboard-text="20180917009130101000580028337767" title="20180917009130101000580028337767">			2018...767
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-9" href="javascript:;" data-clipboard-text="2018091922001423580582823454" title="2018091922001423580582823454">			2018...454
 	</a>
     		</div>
 				
@@ -2213,7 +2219,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay"> 64.00</span>
+    		                <span class="amount-pay">- 3.50</span>
         	    </td>
 
             	
@@ -2221,7 +2227,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=YEB&bizInNo=20180917009130101000580028337767&gmtBizCreate=			20180917021220
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091922001423580582823454&gmtBizCreate=			20180919074128
 	">&#xe60b;</a>
 	
         
@@ -2242,27 +2248,32 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
-          
-
-          
-          <li class="btn-group-item" seed="trade-detail" data-link="https://yebprod.alipay.com/yeb/payRecord.htm?tradeNo=20180917009130101000580028337767" data-target="_blank">详情</li>
-      
-
-
-          
+                                         
 
 
 
+	
 
-          
+		
+    
+                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091922001423580582823454" data-target="_blank">详情</li>
+              
+     
+ 
+                            
+
+
+
+
+                            
     
         
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180917009130101000580028337767&createDate=			20180917021220
-	&bizType=YEB" rel-id="" data-type="memo" data-bizId="biz20180917009130101000580028337767">备注</li>
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091922001423580582823454&createDate=			20180919074128
+	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091922001423580582823454">备注</li>
     
     
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-17 02:12:20
-	~20180917009130101000580028337767~YEB" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-19 07:41:28
+	~2018091922001423580582823454~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -2292,15 +2303,15 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
            
 <td class="img">
   <p class="opposite-img">
-        <img src=https://t.alipayobjects.com/images/partner/T1YV8eXolYXXXXXXXX_160X160 >
+        <img src=https://gw.alipayobjects.com/zos/mwalletmng/mukPPhtdXrnqECpCXXDq.png >
     </p>
 </td>
   <td class="time">
   	
     
-          <p>			2018-09-16
+          <p>			2018-09-18
 	</p>
-        <p class="text-muted">			18:49
+        <p class="text-muted">			19:14
 	</p>
   
   </td>
@@ -2311,19 +2322,19 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
     <td class="name">
 		    	<p class="consume-title">
-    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=D_TRANSFER&bizInNo=20180916200040011100070067703905&gmtBizCreate=20180916184907"  target="_blank">转账</a>
+    	                            	<a href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091822001423580581112091&gmtBizCreate=20180918191447"  target="_blank">北京地铁-二维码乘车 9月18日18:18进站乘车，行程记录请前往易通行查看</a>
                     </p>
     	
 				        	
     		                <p class="name p-inline ft-gray">
-    				\u5229\u5f3a |
+    				北京轨道交通路网管理有限公司 |
                 </p>
     		        	
         			    	
     	    	                        <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container  p-inline" id="J-tradeNo-container-10">
     			流水号
     			
-                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-10" href="javascript:;" data-clipboard-text="20180916200040011100070067703905" title="20180916200040011100070067703905">			2018...905
+                    			<a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-10" href="javascript:;" data-clipboard-text="2018091822001423580581112091" title="2018091822001423580581112091">			2018...091
 	</a>
     		</div>
 				
@@ -2334,7 +2345,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 
 <td class="amount">
-    		                <span class="amount-pay">+ 64.00</span>
+    		                <span class="amount-pay">- 4.00</span>
         	    </td>
 
             	
@@ -2342,12 +2353,11 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <td class="detail">
   <div class="icon-group">
-                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=D_TRANSFER&bizInNo=20180916200040011100070067703905&gmtBizCreate=			20180916184907
+                        <a class="record-icon icon-detail icon-detail-trigger" data-type="detail" data-date="时间	" href="https://consumeprod.alipay.com:443/record/detail/simpleDetail.htm?bizType=TRADE&bizInNo=2018091822001423580581112091&gmtBizCreate=			20180918191447
 	">&#xe60b;</a>
 	
         
-                <span class="record-icon icon-memo " data-info="转账" data-type="memo" data-bizId="biz20180916200040011100070067703905" >&#xe608;</span>
-      </div>
+          </div>
 
 </td>
 
@@ -2364,36 +2374,32 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 <td class="operation">
     <div class="btn-group-wrap">
         <ul class="btn-group">
+                                         
+
+
+
+	
+
+		
+    
+                                           <li class="btn-group-item" seed="trade-detail"  data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2018091822001423580581112091" data-target="_blank">详情</li>
+              
+     
+ 
+                            
+
+
+
+
+                            
+    
         
-
-
-
-
-
-
-			<li class="btn-group-item" data-link="https://shenghuo.alipay.com/send/queryTransferDetail.htm?tradeNo=20180916200040011100070067703905" data-target="_blank">详情</li>
-
-
-
-
-
-
-
-
-    
-
-
-
-
+    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=2018091822001423580581112091&createDate=			20180918191447
+	&bizType=TRADE" rel-id="" data-type="memo" data-bizId="biz2018091822001423580581112091">备注</li>
     
     
-    
-    <li class="btn-group-item" class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com:443/record/editMemo.htm?bizInNo=20180916200040011100070067703905&createDate=			20180916184907
-	&bizType=D_TRANSFER" rel-id="" data-type="memo" data-bizId="biz20180916200040011100070067703905">备注</li>
-    
-    
-            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-16 18:49:07
-	~20180916200040011100070067703905~D_TRANSFER" data-fund-change="true"  rel-id="" data-type="del">删除</li>
+            <li class="btn-group-item" seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com:443/record/delete.json?record=			2018-09-18 19:14:47
+	~2018091822001423580581112091~TRADE" data-fund-change="true"  rel-id="" data-type="del">删除</li>
          
          
         
@@ -4061,7 +4067,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
 
 <div class="amount-bottom">
         	<div class="action-content">
-    	    		<a class="amount-links" seed="CR-statistical-bottom"  href="https://consumeprod.alipay.com:443/record/statistic.json?_input_charset=utf-8&dateRange=oneMonth&amp;endDate=2018.09.18&amp;pageNum=1&amp;beginDate=2018.08.18&amp;dateType=createDate&amp;fundFlow=all&amp;beginTime=00%3A00&amp;endTime=24%3A00&amp;tradeType=ALL&amp;status=all">
+    	    		<a class="amount-links" seed="CR-statistical-bottom"  href="https://consumeprod.alipay.com:443/record/statistic.json?_input_charset=utf-8&dateRange=oneMonth&amp;endDate=2018.09.20&amp;pageNum=1&amp;beginDate=2018.08.20&amp;dateType=createDate&amp;fundFlow=all&amp;beginTime=00%3A00&amp;endTime=24%3A00&amp;tradeType=ALL&amp;status=all">
                 统计查询结果
             </a>
 
@@ -4069,7 +4075,7 @@ seajs.use('consumeprod-record/1.1.7/knight', function() {
     	    		<div class="fn-clear action-other  action-other-show ">
     			<div class="fn-left">
     				    				<em class="ft-bar first-bar">|</em>
-    				    				    				<a class="J-download-tip mr-20" seed="CR-download-bottom" data-link="https://consumeprod.alipay.com:443/record/download.htm?_input_charset=utf-8&suffix=csv&dateRange=oneMonth&amp;endDate=2018.09.18&amp;pageNum=1&amp;beginDate=2018.08.18&amp;dateType=createDate&amp;fundFlow=all&amp;beginTime=00%3A00&amp;endTime=24%3A00&amp;tradeType=ALL&amp;status=all"><span class="record-icon icon-download"></span>下载查询结果</a>
+    				    				    				<a class="J-download-tip mr-20" seed="CR-download-bottom" data-link="https://consumeprod.alipay.com:443/record/download.htm?_input_charset=utf-8&suffix=csv&dateRange=oneMonth&amp;endDate=2018.09.20&amp;pageNum=1&amp;beginDate=2018.08.20&amp;dateType=createDate&amp;fundFlow=all&amp;beginTime=00%3A00&amp;endTime=24%3A00&amp;tradeType=ALL&amp;status=all"><span class="record-icon icon-download"></span>下载查询结果</a>
     				
 
 <script type="text/javascript">
@@ -4096,7 +4102,7 @@ seajs.use(['alipay/xbox/1.1.5/xbox','jquery'], function(Xbox, $) {
     			
    
 	<div class="page fn-right">   		<div class="page-link">
-						1 - 10条，共235条
+						1 - 10条，共232条
 							<a class="page-next page-trigger" href="javascript:;" pageNum="2">下一页&gt;</a>
 				<a class="page-end page-trigger" href="javascript:;" pageNum="24">尾页&gt;&gt;</a>
 					</div>
@@ -4436,7 +4442,7 @@ try {
     HEAD.appendChild(spt);
 
 	setTimeout(function() {
-	  window.httpWatch && window.httpWatch({ sample: 1, appname: 'consumeprod-49-5672', logServer: logServer });
+	  window.httpWatch && window.httpWatch({ sample: 1, appname: 'consumeprod-49-7964', logServer: logServer });
 	}, 1000);
   }
   })();
@@ -4510,7 +4516,7 @@ try {
       <a href="https://fun.alipay.com/certificate/jyxkz.htm" target="_blank">ICP证：沪B2-20150087</a>
   </div>
 <div class="server" id="ServerNum">
-  consumeprod-49-5672 &nbsp;
+  consumeprod-49-7964 &nbsp;
 </div>
 <!-- FD:231:alipay/foot/copyright.vm:2604:foot/copyright.schema:支付宝copyright:END --><!-- FD:231:alipay/foot/copyright.vm:END -->        </div>
     </div>
@@ -4693,8 +4699,6 @@ try {
 
 </body>
 </html>
-
-
 """
 # tt.encode('utf8').decode('utf8')
 page_sel = scrapy.Selector(text=tt)
@@ -4710,58 +4714,62 @@ msg = "北京"
 print(msg.encode(encoding="utf-8"))  # unicode编码转换为utf-8编码
 print(msg.encode(encoding="utf-8").decode(encoding="utf-8"))  # unicode编码转换为utf-8编码，再转化为unicode编码
 # result = page_sel.xpath('//*[@class="J-item "]').extract()
-result = page_sel.xpath('//*[@id="J-item-10"]/td[2]//text()').extract()
+result = page_sel.xpath('//*[@id="J-nav-top"]/div/ul[2]/li[1]/span/text()').extract()
 print(len(result), result)
 # for i in range(10):
 # 	print(i)
 
 
 # ll = ['\n\n\n                        ', '今天', '\n                  ', ' 08:49\n                    ', '\n\n ']
-ll = result = page_sel.xpath('//*[@id="J-item-10"]/td[2]//text()').extract()
-ll = ''.join(ll)
+# ll = result = page_sel.xpath('//*[@id="J-item-10"]/td[2]//text()').extract()
+# ll = ''.join(ll)
+#
+#
+# def delete_n(value):
+# 	if "\n" in value:
+# 		return value.replace("\n", "")
+# 	else:
+# 		return value
+#
+#
+# def delele_(value):
+# 	return value.strip(" ")
+#
+#
+# def formate_time(value):
+# 	if '今天' in value:
+# 		now = time.time()
+# 		time_array = time.localtime(now)
+# 		day = time.strftime("%Y-%m-%d", time_array)
+# 		times = value.split(' ')[-1]
+# 		return day + ' ' + times
+# 	if '昨天' in value:
+# 		now = datetime.datetime.now()
+# 		date = now + datetime.timedelta(days=-1)  # timedate模块时间减去一天
+# 		date = int(time.mktime(date.timetuple()))  # timedate模块转为时间戳
+# 		time_array = time.localtime(date)  # 时间戳转换为时间数组
+# 		print("111", date)
+# 		print('time_array', time_array)
+# 		times = value.split(' ')[-1]
+# 		day = time.strftime("%Y-%m-%d", time_array)  # 时间数据格式化
+# 		return day + ' ' + times
+# 	else:
+# 		print('value的样子', value)
+# 		if "\t" in value:
+# 			value = value.replace("\t", "")
+# 			value = value.strip()
+# 		day = value.split(' ')[0]
+# 		times = value.split(' ')[-1]
+# 		return day + ' ' + times
+#
+#
+# ll = delete_n(ll)
+# print(ll)
+# ll = delele_(ll)
+# print('去除空格', ll)
+# ll = formate_time(ll)
+# print(ll)
 
 
-def delete_n(value):
-	if "\n" in value:
-		return value.replace("\n", "")
-	else:
-		return value
-
-
-def delele_(value):
-	return value.strip(" ")
-
-
-def formate_time(value):
-	if '今天' in value:
-		now = time.time()
-		time_array = time.localtime(now)
-		day = time.strftime("%Y-%m-%d", time_array)
-		times = value.split(' ')[-1]
-		return day + ' ' + times
-	if '昨天' in value:
-		now = datetime.datetime.now()
-		date = now + datetime.timedelta(days=-1)  # timedate模块时间减去一天
-		date = int(time.mktime(date.timetuple()))  # timedate模块转为时间戳
-		time_array = time.localtime(date)  # 时间戳转换为时间数组
-		print("111", date)
-		print('time_array', time_array)
-		times = value.split(' ')[-1]
-		day = time.strftime("%Y-%m-%d", time_array)  # 时间数据格式化
-		return day + ' ' + times
-	else:
-		print('value的样子', value)
-		if "\t" in value:
-			value = value.replace("\t", "")
-			value = value.strip()
-		day = value.split(' ')[0]
-		times = value.split(' ')[-1]
-		return day + ' ' + times
-
-
-ll = delete_n(ll)
-print(ll)
-ll = delele_(ll)
-print('去除空格', ll)
-ll = formate_time(ll)
+ll = re.findall("userName : '(.*)'", tt)
 print(ll)

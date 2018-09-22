@@ -147,9 +147,12 @@ ll = {'company': '',
 
 
 # bytes 和str 的转换
-a = "李璐"
-b1 = bytes(a, encoding='utf-8')
-print(b1)
-newa1 = str(b1, encoding='utf-8')
-print(newa1)
+# a = "李璐"
+# b1 = bytes(a, encoding='utf-8')
+# print(b1)
+# newa1 = str(b1, encoding='utf-8')
+# print(newa1)
 
+
+ll = '\u9352\u55d7\u57c6\u701b\u6a3a\u504d\u0074\u006f\u006b\u0065\u006e\u935c\u5bc0\u0061\u93c1\u7248\u5d41'
+print(ll)
