@@ -38,16 +38,10 @@ for record in search_res:
 	insert_time_list.append(insert_time)
 	insert_time = []
 print(insert_time_list[0:1])
-# names = name.append("insert_time")
-# print(len(insert_time), len(status), len(entName))
+
 names = ["insert_time", "status", "entName", "creditCode", "orderAmount", "customerNum", "platformId", "completeTime",
          "orderNum"]
 
-# list = [insert_time, status, entName, creditCode, orderAmount, customerNum, platformId, completeTime, orderNum]
-# index = []
-# for i in range(1, 50186):
-# 	index.append(i)
-# print(len(index))
 test = pd.DataFrame(columns=names, data=insert_time_list)
 test.to_csv('lipeipei4.csv')
 #

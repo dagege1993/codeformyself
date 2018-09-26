@@ -154,5 +154,16 @@ ll = {'company': '',
 # print(newa1)
 
 
-ll = '\u9352\u55d7\u57c6\u701b\u6a3a\u504d\u0074\u006f\u006b\u0065\u006e\u935c\u5bc0\u0061\u93c1\u7248\u5d41'
-print(ll)
+# ll = '\u9352\u55d7\u57c6\u701b\u6a3a\u504d\u0074\u006f\u006b\u0065\u006e\u935c\u5bc0\u0061\u93c1\u7248\u5d41'
+# print(ll)
+
+# import faker
+#
+# init = faker.Faker(locale='zh-cn')
+#
+# print(init.ip())
+
+
+hash_value = hash(str('192.168.1.1')) % 1000
+print(type(hash_value))
+print(hash_value)
