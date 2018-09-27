@@ -19,3 +19,6 @@ result = "".join(l.reverse())
 
 # 用 select 语句输出每个城市中心距离 市中心 大于20km酒店数？
 # select count(hotel) i from hotel where distance > 20 ;
+
+
+
