@@ -11,7 +11,7 @@ channel = connection.channel()
 channel.basic_qos(prefetch_count=1)  # 使用basic_qos方法，并设置prefetch_count=1。这样是告诉RabbitMQ，在同一时刻，不要发送超过1条消息给一个工作者worker 公平调度
 
 # 声明消息队列，消息将在这个队列中进行传递。如果队列不存在，则创建
-channel.queue_declare(queue='loanRiskModel4Python', durable=True)
+channel.queue_declare(queue='loanRiskModelFromPython', durable=True)
 
 
 # 定义一个回调函数来处理，这边的回调函数就是将信息打印出来。
@@ -24,7 +24,7 @@ def callback(ch, method, properties, body):
 
 # 告诉rabbitmq使用callback来接收信息
 channel.basic_consume(callback,
-                      queue='loanRiskModel4Python',
+                      queue='loanRiskModelFromPython',
                       no_ack=True  # no_ack=True表示在回调函数中不需要发送确认标识
                       )
 
