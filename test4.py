@@ -164,6 +164,17 @@ ll = {'company': '',
 # print(init.ip())
 
 
-hash_value = hash(str('192.168.1.1')) % 1000
-print(type(hash_value))
-print(hash_value)
+# hash_value = hash(str('192.168.1.1')) % 1000
+# print(type(hash_value))
+# print(hash_value)
+
+ll = '//ad.liepin.com/adremote/forward2/?adPositionId=23308&adInstanceId=21046&nextUrl=https%3A%2F%2Fwww.liepin.com%2Fjob%2F1915338466.shtml'
+# ll = '2F1915338466.shtml'
+import re
+
+# result = re.findall(r"adPositionId=23308&adInstanceId=21046&nextUrl=https%3A%2F%2Fwww.liepin.com%2Fjob%2F(1915338466).shtml", ll)
+result = re.findall("\d{10}.shtml", ll)
+# result = re.findall("1915338466.shtml", ll)
+# result = re.findall("^2F\d+\.shtml$", ll)
+# result = re.findall("/.shtml\b", ll)
+print(result)
