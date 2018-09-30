@@ -35,3 +35,36 @@ b = str.strip("#")
 print(b)
 
 # 请使用 map 函数将[1,2,3,4]处理成[1,0,1,0]
+'''def xmind(x):
+	if x % 2 == 0:
+		return 0
+	else:
+		return 1
+
+
+b = map(xmind, [1, 2, 3, 4])
+print(list(b))'''
+
+# reduce
+from functools import reduce
+
+sum = reduce(lambda x, y: x * y, range(1, 101))  # 对参数序列中元素进行累积
+print(sum)
+
+
+# 生成斐波那契数列
+# [] 列表实现
+def fibonacci(num):
+	fibs = [0, 1]
+	for i in range(num - 2):
+		fibs.append(fibs[-2] + fibs[-1])  # 倒数第二个+倒数第一个数的结果，追加到列表
+	print(fibs)
+
+
+# yield 实现
+def fab_demo4(max):
+	a, n, b = 0, 0, 1
+	while n < max:
+		yield b
+	# print b
+	a, b = b, a + b
