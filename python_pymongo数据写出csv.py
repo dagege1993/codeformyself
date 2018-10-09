@@ -1,11 +1,17 @@
 from pymongo import MongoClient
 
-client = MongoClient(host='192.168.111.39', port=27017)
+# 生产环境
+# client = MongoClient(host='192.168.111.39', port=27017)
+# db_auth = client.admin
+# db_auth.authenticate("jkspider", "adminadmin")
+# db = client['jkspider']['duolabao']
+# 本地
+client = MongoClient(host='localhost', port=27017)
 db_auth = client.admin
-db_auth.authenticate("jkspider", "adminadmin")
-db = client['jkspider']['duolabao']
+# db_auth.authenticate("jkspider", "adminadmin")
+db = client['duolabao']['jianfeng']
 
-queryArgs = {'entName': '洛阳市站区新大华超市'}
+queryArgs = {'entName': '郑州市金水区董氏兄弟水果超市'}
 search_res = db.find(queryArgs)
 
 import csv
@@ -43,7 +49,7 @@ names = ["insert_time", "status", "entName", "creditCode", "orderAmount", "custo
          "orderNum"]
 
 test = pd.DataFrame(columns=names, data=insert_time_list)
-test.to_csv('lipeipei4.csv')
+test.to_csv('shuiguochaoshi.csv')
 #
 # df = pd.DataFrame([[1, 2, 3], [4, 5, 6]], columns=['c1', 'c2', 'c3'])
 # print(df)
