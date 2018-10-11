@@ -6,7 +6,13 @@ from pymongo import MongoClient
 # db_auth.authenticate("jkspider", "adminadmin")
 # db = client['jkspider']['duolabao']
 # 本地
-client = MongoClient(host='localhost', port=27017)
+# client = MongoClient(host='localhost', port=27017)
+# db_auth = client.admin
+# # db_auth.authenticate("jkspider", "adminadmin")
+# db = client['duolabao']['jianfeng']
+
+# 测试环境
+client = MongoClient(host='192.168.107.38', port=27017)
 db_auth = client.admin
 # db_auth.authenticate("jkspider", "adminadmin")
 db = client['duolabao']['jianfeng']
@@ -45,11 +51,10 @@ for record in search_res:
 	insert_time = []
 print(insert_time_list[0:1])
 
-names = ["insert_time", "status", "entName", "creditCode", "orderAmount", "customerNum", "platformId", "completeTime",
-         "orderNum"]
+names = ["insert_time", "status", "entName", "creditCode", "orderAmount", "customerNum", "platformId", "completeTime", "orderNum"]
 
 test = pd.DataFrame(columns=names, data=insert_time_list)
-test.to_csv('shuiguochaoshi.csv')
+test.to_csv('dashuju1.csv')
 #
 # df = pd.DataFrame([[1, 2, 3], [4, 5, 6]], columns=['c1', 'c2', 'c3'])
 # print(df)
