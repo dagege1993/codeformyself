@@ -6,19 +6,22 @@ from pymongo import MongoClient
 # db_auth.authenticate("jkspider", "adminadmin")
 # db = client['jkspider']['duolabao']
 # 本地
-# client = MongoClient(host='localhost', port=27017)
+client = MongoClient(host='localhost', port=27017)
+db_auth = client.admin
+# db_auth.authenticate("jkspider", "adminadmin")
+db = client['localhost_duolabao']['jianfeng']
+queryArgs = {'entName': '郑州市金水区董氏兄弟水果超市',
+             'shop_id': '784a274a773d0a40e7e7e01f8b8d3536|7d2e5874c6cc4b2597234ccba4169099'}
+search_res = db.find(queryArgs)
+
+# # 测试环境
+# client = MongoClient(host='192.168.107.38', port=27017)
 # db_auth = client.admin
 # # db_auth.authenticate("jkspider", "adminadmin")
 # db = client['duolabao']['jianfeng']
-
-# 测试环境
-client = MongoClient(host='192.168.107.38', port=27017)
-db_auth = client.admin
-# db_auth.authenticate("jkspider", "adminadmin")
-db = client['duolabao']['jianfeng']
-
-queryArgs = {'entName': '郑州市金水区董氏兄弟水果超市'}
-search_res = db.find(queryArgs)
+#
+# queryArgs = {'entName': '郑州市金水区董氏兄弟水果超市'}
+# search_res = db.find(queryArgs)
 
 import csv
 
@@ -51,10 +54,11 @@ for record in search_res:
 	insert_time = []
 print(insert_time_list[0:1])
 
-names = ["insert_time", "status", "entName", "creditCode", "orderAmount", "customerNum", "platformId", "completeTime", "orderNum"]
+names = ["insert_time", "status", "entName", "creditCode", "orderAmount", "customerNum", "platformId", "completeTime",
+         "orderNum"]
 
 test = pd.DataFrame(columns=names, data=insert_time_list)
-test.to_csv('dashuju1.csv')
+test.to_csv('shuiguochaoshi.csv')
 #
 # df = pd.DataFrame([[1, 2, 3], [4, 5, 6]], columns=['c1', 'c2', 'c3'])
 # print(df)
