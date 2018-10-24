@@ -1,5 +1,8 @@
 import re
 
+import requests
+import scrapy
+
 ll = '''
 <!DOCTYPE html>
 <html>
@@ -1184,6 +1187,19 @@ ll = '''
 </html>
 
 '''
-# result = re.findall('href="(.*?).meituan.com"', ll)
+
 result = re.findall('href="(.*?)"', ll)
-print(result)
+
+
+# print(result)
+
+
+def get_url_list():
+	response = requests.get('https://www.meituan.com/changecity/')
+	page_sel = scrapy.Selector(text=response.text)
+	result = page_sel.xpath('//*[@id="react"]//@href').extract()
+	# print(result)
+	return list(set(result)).remove('//bj.meituan.com')
+
+
+print('返回结果', get_url_list())
