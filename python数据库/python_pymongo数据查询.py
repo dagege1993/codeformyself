@@ -9,12 +9,10 @@ from pymongo import MongoClient
 client = MongoClient(host='localhost', port=27017)
 db_auth = client.admin
 
-db = client['duolabao']['jianfeng']
+db = client['localhost_duolabao']['jianfeng']
 
-queryArgs = {'entName': '郑州市金水区董氏兄弟水果超市'}
-temp = '2018-10-02 15:55:59'
-# search_res = db.find({"entName": "郑州市金水区董氏兄弟水果超市"}).sort([{"completeTime": -1}])
+queryArgs = {'entName': '洛阳市站区新大华超市'}
 search_res = db.find(queryArgs)
-# print(search_res)
-# for result in search_res:
-# 	print(result)
+
+for result in search_res:
+	print(result)
