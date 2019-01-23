@@ -53,6 +53,6 @@ if __name__ == "__main__":
         ]  # 2018/12/04下午三点半插入的
         for token in token_list:
             conn.lpush("token", token)
-        conn.expire('token', 14 * 24 * 60 * 60)  # 设置键的过期时间
+            conn.expire('token', 14 * 24 * 60 * 60)  # 设置键的过期时间
     except Exception as err:
         print(err)

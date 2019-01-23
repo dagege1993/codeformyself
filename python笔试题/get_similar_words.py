@@ -24,21 +24,19 @@ words_dict = defaultdict(set)  # 词典的value值默认为set（非重复的相
 # 事实上defaultdic，可以指定一个工厂函数，来初始化键对应该的值，每次初始化一个键时，都会调用这一函数
 
 def cal_similar_words(word):
-	if len(word) != 0:
-		for item in word:
-			pattern = word.replace(item, '.')
-			words_dict[pattern].add(word)  # Add an element to a set.
+    if len(word) != 0:
+        for item in word:
+            pattern = word.replace(item, '.')
+            words_dict[pattern].add(word)  # Add an element to a set.
 
 
 words_list = []  # 文本单词集合
 with open('word_pure.txt') as file:  # 为了方便，我们读入一个txt文件，可以认为包含了
-	words_list = file.readlines()
-	words_list = [word.replace('\n', '') for word in words_list]
+    words_list = file.readlines()
+    words_list = [word.replace('\n', '') for word in words_list]
 for item in set(words_list):
-	cal_similar_words(item.lower())
+    cal_similar_words(item.lower())
 # print(words_dict)
-
-
 
 
 import collections
@@ -48,8 +46,8 @@ s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
 # d = collections.defaultdict(list)
 d = collections.defaultdict(set)
 for k, v in s:
-	# d[k].append(v)
-	d[k].add(v)
+    # d[k].append(v)
+    d[k].add(v)
 
 # list(d.items())
 print(d)
