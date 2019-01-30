@@ -11,8 +11,7 @@ def sed_email():
     # 发带附件的邮件用的
     email_host = 'smtp.163.com'  # 邮箱服务器地址
     email_user = '18273711329@163.com'  # 发送者账号
-    email_pwd = 'hlz156350'
-    # 发送者密码是邮箱的授权码，不是登录的密码
+    email_pwd = 'hlz156350'  # 发送者密码是邮箱的授权码，不是登录的密码
     # mail_list = '156350439@qq.com'
     mail_list = '18073258146@163.com'
     # 收件人邮箱，多个账号的话，用逗号隔开
