@@ -28,11 +28,11 @@ str_time = time_difference.days
 
 
 for i in range(1, 5):
-	startTime = startTime
-	endTime = startTime + datetime.timedelta(hours=6)
-	
-	print(startTime, endTime)
-	startTime = endTime
+    startTime = startTime
+    endTime = startTime + datetime.timedelta(hours=6)
+
+    print(startTime, endTime)
+    startTime = endTime
 #
 # list1 = [
 #     {
@@ -93,3 +93,29 @@ print('结束时间', (end_time - start_time).seconds)
 endtime = time.time()
 linutime = time.localtime(endtime - starttime)
 print(time.strftime("%Y-%m-%d %H:%M:%S", linutime))
+
+
+# 输入一个日期范围,返回的是每个月的起始日期和结束日期
+
+def get_month_day():
+    import calendar
+    import time
+    day_now = time.localtime()
+    day_begin = '%d-%02d-01' % (day_now.tm_year, day_now.tm_mon)  # 月初肯定是1号
+    wday, monthRange = calendar.monthrange(day_now.tm_year, day_now.tm_mon)  # 得到本月的天数 第一返回为月第一日为星期几（0-6）, 第二返回为此月天数
+    day_end = '%d-%02d-%02d' % (day_now.tm_year, day_now.tm_mon, monthRange)
+    print('月初日期为：', day_begin, '月末日期为：', day_end)
+
+
+def get_date_list(start, end):
+    import pandas as pd
+    date_list = [d.strftime("%Y-%m-%d") for d in pd.date_range(start, end, freq="M")]
+    print(date_list)
+    return date_list
+
+
+if __name__ == '__main__':
+    # get_month_day()
+    start = '2017-01-01'
+    end = '2019-01-30'
+    get_date_list(start, end)
