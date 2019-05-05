@@ -1,0 +1,1 @@
+"//android.widget.ListView[@resource-id='com.lucky.luckyclient:id/lv_address_list']/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]"

@@ -1,0 +1,1 @@
+'https://api.yonghuivip.com/api/shop/storelist?cityid=1&isonlyscancode=0&distinctId=309c237660c13218&v=4.4.6.0.82&platform=Android&channel=official&deviceid=354730010342446&timestamp=1547437413659&sign=2226a2fdde26c2710b27ed8f56ca0426'
