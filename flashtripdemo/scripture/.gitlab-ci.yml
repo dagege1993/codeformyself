@@ -1,0 +1,22 @@
+image: registry-vpc.cn-beijing.aliyuncs.com/weegotr_com/builder:latest
+
+build-tasks-image:
+  stage: release
+  script:
+    - wgci release --dockerfile tasks.Dockerfile --name scripture-tasks
+  when: manual
+
+build-web-image:
+  stage: release
+  script:
+    - wgci release --dockerfile web.Dockerfile --name scripture-web
+  when: manual
+
+build-scrapy-image:
+  stage: release
+  script:
+    - wgci release --dockerfile scrapy.Dockerfile --name scripture-scrapy
+  when: manual
+
+stages:
+  - release

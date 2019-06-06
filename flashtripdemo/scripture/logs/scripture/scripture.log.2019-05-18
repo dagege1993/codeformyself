@@ -1,0 +1,366 @@
+[2019-05-17 19:48:15] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+KeyError: 'spider_name'
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:55:54] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-17 19:56:15] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:22] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:22] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:32] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:33] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:37] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:38] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:38] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:39] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:40] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:48] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:49] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:50] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:50] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:50] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:52] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:52] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:52] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:55] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:56:57] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:00] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:09] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:10] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:11] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:11] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:11] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:11] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:12] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-17 19:57:13] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-18 12:29:48] INFO - scripture.spiders.redis_spider: 当前最多酒店数369
+[2019-05-18 12:32:16] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-18 12:42:43] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+TypeError: 'NoneType' object is not subscriptable
+[2019-05-18 15:59:28] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:28] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:30] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:30] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:30] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:30] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:30] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:31] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:31] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:31] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:31] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:31] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe
+[2019-05-18 15:59:31] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+BrokenPipeError: [Errno 32] Broken pipe

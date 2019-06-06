@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>datas</title>
+    <script>
+        function upload(){
+            var xmlhttp = new XMLHttpRequest();
+            var sel_obj = document.getElementById('opt');
+            var value = sel_obj.value
+            var file_obj = document.getElementById('excel').files[0];
+            var fd = new FormData();
+            fd.append('excel',file_obj);
+            fd.append('opt',value);
+            xmlhttp.open("POST", "/api/v1/crawl/upload", true);
+            xmlhttp.send(fd);
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("excel_info").innerHTML=xmlhttp.responseText;
+                }
+            };
+        }
+    </script>
+    <script>
+        function statu(){
+            var xmlhttp = new XMLHttpRequest();
+            var sel_obj = document.getElementById('opt');
+            var value = sel_obj.value
+            var file_obj = document.getElementById('excel').files[0];
+            var fd = new FormData();
+            fd.append('excel',file_obj);
+            fd.append('opt',value);
+            xmlhttp.open("POST", "/api/v1/crawl/status?query=number", true);
+            xmlhttp.send(fd);
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("crawl_status").innerHTML=xmlhttp.response;
+                }
+            };
+        }
+    </script>
+    <script>
+        function details(){
+            var xmlhttp = new XMLHttpRequest();
+            var sel_obj = document.getElementById('opt');
+            var value = sel_obj.value
+            var file_obj = document.getElementById('excel').files[0];
+            var fd = new FormData();
+            fd.append('excel',file_obj);
+            fd.append('opt',value);
+            xmlhttp.open("POST", "/api/v1/crawl/status?query=details", true);
+            xmlhttp.send(fd);
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("crawl_details").innerHTML=xmlhttp.responseText;
+                }
+            };
+        }
+    </script>
+    <script>
+        function clear_excel_info()
+        {
+            document.getElementById("excel_info").innerHTML='';
+        }
+    </script>
+    <script>
+        function clear_crawl_status()
+        {
+            document.getElementById("crawl_status").innerHTML='';
+        }
+    </script>
+    <script>
+        function clear_crawl_details()
+        {
+            document.getElementById("crawl_details").innerHTML='';
+        }
+    </script>
+    <script>
+        function clear_crawl_history(){
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "/api/v1/crawl/clear", true);
+            xmlhttp.send();
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200){
+                    document.getElementById("clear").innerHTML=xmlhttp.responseText;}
+
+            };
+        }
+    </script>
+
+</head>
+<body>
+    <h2>请上传EXCEL表格</h2>
+    <span>注：第二列为url</span>
+    <br><br>
+    <select name="" id="opt" style="width:100px; height:30px">
+        <option>hcom</option>
+        <option>booking</option>
+    </select>
+    <br><br><br>
+    <input  class="file" type="file" id="excel" name="" >
+    <br><br><br>
+    <input type="button" value="开始抓取任务" onclick="upload()">
+    <input type="button" value="点击收起" onclick="clear_excel_info()">
+    <div id="excel_info"></div>
+    <br><br>
+    <input type="button" value="查询任务状态" onclick="statu()">
+    <input type="button" value="点击收起" onclick="clear_crawl_status()">
+    <div id="crawl_status"></div>
+    <br><br>
+    <input type="button" value="查询已抓数据" onclick="details()">
+    <input type="button" value="点击收起" onclick="clear_crawl_details()">
+    <div id="crawl_details"></div>
+    <br><br>
+    <input type="button" value="清除抓取历史" onclick="clear_crawl_history()">
+    <div id="clear"></div>
+</body>
+</html>

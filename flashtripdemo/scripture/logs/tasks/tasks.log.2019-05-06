@@ -1,0 +1,18 @@
+{"asctime": "2019-05-06 12:19:57", "name": "celery.worker.consumer.connection", "message": "Connected to redis://127.0.0.1:6379/8", "levelname": "INFO"}
+{"asctime": "2019-05-06 12:19:57", "name": "celery.worker.consumer.mingle", "message": "mingle: searching for neighbors", "levelname": "INFO"}
+{"asctime": "2019-05-06 12:19:58", "name": "celery.worker.consumer.mingle", "message": "mingle: all alone", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:00:00", "name": "celery.worker.strategy", "message": "Received task: tasks.inventories.calendar_all[14f93075-c954-4b33-8e6a-49c471cbb778]  ", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:00:00", "name": "celery.worker.request", "message": "Task accepted: tasks.inventories.calendar_all[14f93075-c954-4b33-8e6a-49c471cbb778] pid:5665", "levelname": "DEBUG"}
+{"asctime": "2019-05-06 16:00:29", "name": "celery.worker.strategy", "message": "Received task: tasks.inventories.calendar_one[b733bdf9-4fdd-4188-9a97-7de78a8a3121]  ", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:00:29", "name": "celery.worker.request", "message": "Task accepted: tasks.inventories.calendar_one[b733bdf9-4fdd-4188-9a97-7de78a8a3121] pid:5651", "levelname": "DEBUG"}
+{"asctime": "2019-05-06 16:02:09", "name": "celery.worker.strategy", "message": "Received task: tasks.inventories.calendar_one[a553068d-8bd5-4465-8f57-1461369702cf]  ", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:02:09", "name": "celery.worker.request", "message": "Task accepted: tasks.inventories.calendar_one[a553068d-8bd5-4465-8f57-1461369702cf] pid:5652", "levelname": "DEBUG"}
+{"asctime": "2019-05-06 16:03:55", "name": "celery.worker.strategy", "message": "Received task: tasks.inventories.calendar_one[f031550b-a991-4367-8af6-e2930ed438d2]  ", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:03:55", "name": "celery.worker.request", "message": "Task accepted: tasks.inventories.calendar_one[f031550b-a991-4367-8af6-e2930ed438d2] pid:5653", "levelname": "DEBUG"}
+{"asctime": "2019-05-06 16:05:25", "name": "celery.worker.strategy", "message": "Received task: tasks.inventories.calendar_one[8744870c-a0b4-4cf1-85c8-08a814986cef]  ", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:05:25", "name": "celery.worker.request", "message": "Task accepted: tasks.inventories.calendar_one[8744870c-a0b4-4cf1-85c8-08a814986cef] pid:5654", "levelname": "DEBUG"}
+{"asctime": "2019-05-06 16:05:26", "name": "celery.worker", "message": "{'_id': ObjectId('59e9cc8c7f79eb466960ee07'), 'city': ObjectId('597edcd7ca98fc5323a924dc'), 'quote_ids': [{'hotel_id': '1', '_id': ObjectId('59e9cc8c7f79eb466960ee08'), 'quoter': ObjectId('59b20729a389295de92f4952')}, {'hotel_id': '12984', '_id': ObjectId('59f694e2b7dc5b6a9dc7b72d'), 'quoter': ObjectId('59c1f0f8e1812033000e1de8')}, {'hotel_id': '111847', 'quoter': ObjectId('59b0b048a389295de92f4815'), '_id': ObjectId('5c00ff788c5a43001ce4fb39')}], 'min_booking_days': 1} 2019-09-09 None 2 False", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:05:29", "name": "celery.worker", "message": "59e9cc8c7f79eb466960ee07 get 2 price use 3 seconds", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:05:29", "name": "celery.worker", "message": "calculate: [915.5, 950.0] of 59e9cc8c7f79eb466960ee07 and do_bug_price is : False", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:05:30", "name": "celery.worker", "message": "59e9cc8c7f79eb466960ee07 remove_prices use 0 seconds", "levelname": "INFO"}
+{"asctime": "2019-05-06 16:05:30", "name": "celery.worker", "message": "update succeed", "levelname": "DEBUG"}

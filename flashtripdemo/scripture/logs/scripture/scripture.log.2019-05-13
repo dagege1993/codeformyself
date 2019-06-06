@@ -1,0 +1,8 @@
+[2019-05-14 18:18:09] INFO - scripture.pipelines.mongo_pipeline: Update prices of ctrip 5942913a7157f7428fe4eccc::cms, {'n': 1, 'nModified': 1, 'ok': 1.0}
+[2019-05-14 18:18:09] INFO - scripture.pipelines.mongo_pipeline: Update prices of ctrip 5942913a7157f7428fe4eccc::cms, {'n': 1, 'nModified': 1, 'ok': 1.0}
+[2019-05-14 18:18:09] INFO - scripture.spiders.redis_spider: response.meta : {'prices': {'checkin': '2019-06-18', 'updated_at': datetime.datetime(2019, 5, 10, 11, 58, 35, 487377)}, 'checkout': datetime.datetime(2019, 6, 19, 0, 0), 'days': 0, 'spider_name': 'ctrip_prices', 'cms_id': '5942913a7157f7428fe4eccc::cms', '_meta': {'spider_name': 'ctrip_prices', 'base_url': 'http://m.ctrip.com/webapp/hotel/j/hoteldetail/dianping/rooms/962739.html', 'inday': datetime.datetime(2019, 6, 18, 0, 0), 'outday': datetime.datetime(2019, 6, 19, 0, 0), 'days': 1, 'cms_id': '5942913a7157f7428fe4eccc::cms'}, '_base_url': URL('http://m.ctrip.com/webapp/hotel/j/hoteldetail/dianping/rooms/962739.html'), 'depth': 1, 'download_timeout': 180.0, 'download_slot': 'm.ctrip.com', 'download_latency': 4.70063591003418}
+[2019-05-14 18:18:09] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.

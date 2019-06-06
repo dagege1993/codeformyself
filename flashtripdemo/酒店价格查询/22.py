@@ -1,0 +1,2 @@
+mongoexport -d scripture -c tripadvisor_lostdesc3 -f _id,hotel_tripadvisor_url, hotel_name_ch,hotel_name_en,hotel_address,city_name,country_name,star_level,lost_desc,comment_level,latitude,longitude,booking_name,booking_url,hotel_desc,hotel_facility
+ --csv -o ./tripadvisor_booking.csv

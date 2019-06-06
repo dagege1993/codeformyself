@@ -1,0 +1,1496 @@
+{
+  "Independence": {
+    "state_abbr": "MO",
+    "state": "Missouri",
+    "state_zh": "密苏里州",
+    "city_zh": "独立城"
+  },
+  "Glendale": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "格伦代尔"
+  },
+  "El Monte": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "埃尔蒙特"
+  },
+  "Norfolk": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "诺福克d[›]"
+  },
+  "Philadelphia": {
+    "state_abbr": "PA",
+    "state": "Pennsylvania",
+    "state_zh": "宾夕法尼亚州",
+    "city_zh": "费城"
+  },
+  "Portsmouth": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "朴茨茅斯d[›]"
+  },
+  "Boston": {
+    "state_abbr": "MA",
+    "state": "Massachusetts",
+    "state_zh": "马萨诸塞州",
+    "city_zh": "波士顿f[›]"
+  },
+  "Des Moines": {
+    "state_abbr": "IA",
+    "state": "Iowa",
+    "state_zh": "爱阿华州",
+    "city_zh": "得梅因f[›]"
+  },
+  "Atlanta": {
+    "state_abbr": "GA",
+    "state": "Georgia",
+    "state_zh": "佐治亚州",
+    "city_zh": "亚特兰大f[›]"
+  },
+  "Plano": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "普拉诺"
+  },
+  "Aurora": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "奥罗拉"
+  },
+  "Naperville": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "内珀维尔"
+  },
+  "Pomona": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "波莫纳"
+  },
+  "Durham": {
+    "state_abbr": "NC",
+    "state": "North Carolina",
+    "state_zh": "北卡罗来纳州",
+    "city_zh": "达勒姆"
+  },
+  "San Diego": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "圣迭戈"
+  },
+  "Cleveland": {
+    "state_abbr": "OH",
+    "state": "Ohio",
+    "state_zh": "俄亥俄州",
+    "city_zh": "克里夫兰"
+  },
+  "Sunnyvale": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "森尼韦尔"
+  },
+  "Norman": {
+    "state_abbr": "OK",
+    "state": "Oklahoma",
+    "state_zh": "俄克拉荷马州",
+    "city_zh": "诺曼"
+  },
+  "West Jordan": {
+    "state_abbr": "UT",
+    "state": "Utah",
+    "state_zh": "犹他州",
+    "city_zh": "西约旦e[›]"
+  },
+  "Ann Arbor": {
+    "state_abbr": "MI",
+    "state": "Michigan",
+    "state_zh": "密歇根州",
+    "city_zh": "安娜堡"
+  },
+  "Birmingham": {
+    "state_abbr": "AL",
+    "state": "Alabama",
+    "state_zh": "亚拉巴马州",
+    "city_zh": "伯明翰"
+  },
+  "Vancouver": {
+    "state_abbr": "WA",
+    "state": "Washington",
+    "state_zh": "华盛顿州",
+    "city_zh": "温哥华"
+  },
+  "Athens": {
+    "state_abbr": "GA",
+    "state": "Georgia",
+    "state_zh": "佐治亚州",
+    "city_zh": "雅典a[›]"
+  },
+  "Tallahassee": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "塔拉哈西"
+  },
+  "West Valley": {
+    "state_abbr": "UT",
+    "state": "Utah",
+    "state_zh": "犹他州",
+    "city_zh": "西瓦利城e[›]"
+  },
+  "Kansas City": {
+    "state_abbr": "KS",
+    "state": "Kansas",
+    "state_zh": "堪萨斯州",
+    "city_zh": "堪萨斯城"
+  },
+  "Clarksville": {
+    "state_abbr": "TN",
+    "state": "Tennessee",
+    "state_zh": "田纳西州",
+    "city_zh": "克拉克斯维尔"
+  },
+  "Oakland": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "奥克兰"
+  },
+  "Boise": {
+    "state_abbr": "ID",
+    "state": "Idaho",
+    "state_zh": "爱达荷州",
+    "city_zh": "博伊西f[›]"
+  },
+  "Port St. Lucie": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "圣露西港"
+  },
+  "Long Beach": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "长滩"
+  },
+  "Topeka": {
+    "state_abbr": "KS",
+    "state": "Kansas",
+    "state_zh": "堪萨斯州",
+    "city_zh": "托皮卡f[›]"
+  },
+  "Inglewood": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "英格尔伍德"
+  },
+  "Virginia Beach": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "弗吉尼亚比奇d[›]"
+  },
+  "Lowell": {
+    "state_abbr": "MA",
+    "state": "Massachusetts",
+    "state_zh": "马萨诸塞州",
+    "city_zh": "洛厄尔"
+  },
+  "Daly City": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "戴利城"
+  },
+  "Bakersfield": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "贝克斯菲尔德"
+  },
+  "Portland": {
+    "state_abbr": "OR",
+    "state": "Oregon",
+    "state_zh": "俄勒冈州",
+    "city_zh": "波特兰"
+  },
+  "Washington": {
+    "state_abbr": "WA",
+    "state": "Washington",
+    "state_zh": "哥伦比亚特区",
+    "city_zh": "华盛顿"
+  },
+  "Amarillo": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "阿马里诺"
+  },
+  "Yonkers": {
+    "state_abbr": "NY",
+    "state": "New York",
+    "state_zh": "纽约州",
+    "city_zh": "扬克斯"
+  },
+  "Madison": {
+    "state_abbr": "WI",
+    "state": "Wisconsin",
+    "state_zh": "威斯康星州",
+    "city_zh": "麦迪逊f[›]"
+  },
+  "Oxnard": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "奥克斯纳德"
+  },
+  "Scottsdale": {
+    "state_abbr": "AZ",
+    "state": "Arizona",
+    "state_zh": "亚利桑那州",
+    "city_zh": "斯科茨代尔"
+  },
+  "Fullerton": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "富勒顿"
+  },
+  "Overland Park": {
+    "state_abbr": "KS",
+    "state": "Kansas",
+    "state_zh": "堪萨斯州",
+    "city_zh": "欧弗兰帕克"
+  },
+  "Lexington": {
+    "state_abbr": "KY",
+    "state": "Kentucky",
+    "state_zh": "肯塔基州",
+    "city_zh": "列克星顿a[›]"
+  },
+  "Eugene": {
+    "state_abbr": "OR",
+    "state": "Oregon",
+    "state_zh": "俄勒冈州",
+    "city_zh": "尤金"
+  },
+  "Akron": {
+    "state_abbr": "OH",
+    "state": "Ohio",
+    "state_zh": "俄亥俄州",
+    "city_zh": "阿克伦"
+  },
+  "Jacksonville": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "杰克逊维尔"
+  },
+  "Fresno": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "弗雷斯诺"
+  },
+  "Downey": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "唐尼"
+  },
+  "Santa Clara": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "圣克拉拉"
+  },
+  "Winston-Salem": {
+    "state_abbr": "NC",
+    "state": "North Carolina",
+    "state_zh": "北卡罗来纳州",
+    "city_zh": "温斯顿-塞勒姆"
+  },
+  "Greensboro": {
+    "state_abbr": "NC",
+    "state": "North Carolina",
+    "state_zh": "北卡罗来纳州",
+    "city_zh": "格林斯伯勒"
+  },
+  "Fort Lauderdale": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "劳德代尔堡"
+  },
+  "Fort Worth": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "福和市"
+  },
+  "Olathe": {
+    "state_abbr": "KS",
+    "state": "Kansas",
+    "state_zh": "堪萨斯州",
+    "city_zh": "奥拉西"
+  },
+  "Miami": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "迈阿密"
+  },
+  "Syracuse": {
+    "state_abbr": "NY",
+    "state": "New York",
+    "state_zh": "纽约州",
+    "city_zh": "雪城"
+  },
+  "Alexandria": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "亚历山德里亚d[›]"
+  },
+  "Huntington Beach": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "亨丁顿滩"
+  },
+  "Richmond": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "里士满"
+  },
+  "Corona": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "科洛纳"
+  },
+  "Toledo": {
+    "state_abbr": "OH",
+    "state": "Ohio",
+    "state_zh": "俄亥俄州",
+    "city_zh": "托莱多"
+  },
+  "Pembroke Pines": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "潘布鲁克派恩斯"
+  },
+  "Phoenix": {
+    "state_abbr": "AZ",
+    "state": "Arizona",
+    "state_zh": "亚利桑那州",
+    "city_zh": "菲尼克斯f[›]"
+  },
+  "Modesto": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "莫德斯托"
+  },
+  "Arlington": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "阿灵顿c[›]"
+  },
+  "Irving": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "欧文"
+  },
+  "Flint": {
+    "state_abbr": "MI",
+    "state": "Michigan",
+    "state_zh": "密歇根州",
+    "city_zh": "弗林特"
+  },
+  "Ontario": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "安大略"
+  },
+  "San Francisco": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "旧金山"
+  },
+  "Elgin": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "埃尔金"
+  },
+  "Stockton": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "斯托克顿"
+  },
+  "Rochester": {
+    "state_abbr": "NY",
+    "state": "New York",
+    "state_zh": "纽约州",
+    "city_zh": "罗彻斯特"
+  },
+  "Hampton": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "汉普顿d[›]"
+  },
+  "Lancaster": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "兰开斯特"
+  },
+  "Torrance": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "托伦斯"
+  },
+  "Sterling Heights": {
+    "state_abbr": "MI",
+    "state": "Michigan",
+    "state_zh": "密歇根州",
+    "city_zh": "斯特灵海茨"
+  },
+  "Fayetteville": {
+    "state_abbr": "NC",
+    "state": "North Carolina",
+    "state_zh": "北卡罗来纳州",
+    "city_zh": "费页特维"
+  },
+  "Provo": {
+    "state_abbr": "UT",
+    "state": "Utah",
+    "state_zh": "犹他州",
+    "city_zh": "普若佛"
+  },
+  "San Buenaventura": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "文图拉"
+  },
+  "San Bernardino": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "圣贝纳迪诺"
+  },
+  "Baltimore": {
+    "state_abbr": "MD",
+    "state": "Maryland",
+    "state_zh": "马里兰州",
+    "city_zh": "巴尔的摩d[›]e[›]"
+  },
+  "Anchorage": {
+    "state_abbr": "AK",
+    "state": "Alaska",
+    "state_zh": "阿拉斯加州",
+    "city_zh": "安克雷奇"
+  },
+  "Arvada": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "阿瓦达"
+  },
+  "Mesquite": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "梅斯基特"
+  },
+  "Burbank": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "伯班克"
+  },
+  "Tucson": {
+    "state_abbr": "AZ",
+    "state": "Arizona",
+    "state_zh": "亚利桑那州",
+    "city_zh": "图森"
+  },
+  "Pittsburgh": {
+    "state_abbr": "PA",
+    "state": "Pennsylvania",
+    "state_zh": "宾夕法尼亚州",
+    "city_zh": "匹兹堡"
+  },
+  "Santa Ana": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "圣安娜"
+  },
+  "Fort Wayne": {
+    "state_abbr": "IN",
+    "state": "Indiana",
+    "state_zh": "印地安纳州",
+    "city_zh": "韦恩堡"
+  },
+  "Hayward": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "海沃德"
+  },
+  "Omaha": {
+    "state_abbr": "NB",
+    "state": "Nebraska",
+    "state_zh": "内布拉斯加州",
+    "city_zh": "奥马哈"
+  },
+  "Escondido": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "埃斯孔迪多"
+  },
+  "Dayton": {
+    "state_abbr": "OH",
+    "state": "Ohio",
+    "state_zh": "俄亥俄州",
+    "city_zh": "代顿"
+  },
+  "Oceanside": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "欧申赛德"
+  },
+  "Fremont": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "弗里蒙特"
+  },
+  "Henderson": {
+    "state_abbr": "NV",
+    "state": "Nevada",
+    "state_zh": "内华达州",
+    "city_zh": "亨德森"
+  },
+  "Manchester": {
+    "state_abbr": "NH",
+    "state": "New Hampshire",
+    "state_zh": "新罕布什尔州",
+    "city_zh": "曼彻斯特"
+  },
+  "Chesapeake": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "切萨皮克d[›]"
+  },
+  "Concord": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "康科德"
+  },
+  "Indianapolis": {
+    "state_abbr": "IN",
+    "state": "Indiana",
+    "state_zh": "印地安纳州",
+    "city_zh": "印第安纳波利斯a[›]f[›]"
+  },
+  "Beaumont": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "博蒙特"
+  },
+  "Clearwater": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "克利尔沃特"
+  },
+  "Chicago": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "芝加哥"
+  },
+  "Rancho Cucamonga": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "库卡蒙格牧场"
+  },
+  "Detroit": {
+    "state_abbr": "MI",
+    "state": "Michigan",
+    "state_zh": "密歇根州",
+    "city_zh": "底特律e[›]"
+  },
+  "Sacramento": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "萨克拉门托f[›]"
+  },
+  "Great Rapids": {
+    "state_abbr": "MI",
+    "state": "Michigan",
+    "state_zh": "密歇根州",
+    "city_zh": "大急流城"
+  },
+  "Salinas": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "萨利纳斯"
+  },
+  "St. Louis": {
+    "state_abbr": "MO",
+    "state": "Missouri",
+    "state_zh": "密苏里州",
+    "city_zh": "圣路易斯d[›]e[›]"
+  },
+  "Bridgeport": {
+    "state_abbr": "CT",
+    "state": "Connecticut",
+    "state_zh": "康涅狄格州",
+    "city_zh": "布里奇波特"
+  },
+  "Hollywood": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "好莱坞"
+  },
+  "Montgomery": {
+    "state_abbr": "AL",
+    "state": "Alabama",
+    "state_zh": "亚拉巴马州",
+    "city_zh": "蒙哥马利f[›]"
+  },
+  "St. Petersburg": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "圣彼德斯堡"
+  },
+  "Simi Valley": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "西米谷"
+  },
+  "Grand Prairie": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "大草原城"
+  },
+  "New Orleans": {
+    "state_abbr": "LA",
+    "state": "Louisiana",
+    "state_zh": "路易斯安那州",
+    "city_zh": "新奥尔良"
+  },
+  "Waco": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "韦科"
+  },
+  "Joliet": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "乔利埃特"
+  },
+  "Milwaukee": {
+    "state_abbr": "WI",
+    "state": "Wisconsin",
+    "state_zh": "威斯康星州",
+    "city_zh": "密尔沃基e[›]"
+  },
+  "Sioux Falls": {
+    "state_abbr": "SD",
+    "state": "South Dakota",
+    "state_zh": "南达科他州",
+    "city_zh": "苏瀑"
+  },
+  "Seattle": {
+    "state_abbr": "WA",
+    "state": "Washington",
+    "state_zh": "华盛顿州",
+    "city_zh": "西雅图"
+  },
+  "Santa Clarita": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "圣塔克拉利塔"
+  },
+  "Anaheim": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "安那罕"
+  },
+  "Orange": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "橙市"
+  },
+  "Riverside": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "里弗塞得"
+  },
+  "Billings": {
+    "state_abbr": "MT",
+    "state": "Montana",
+    "state_zh": "蒙大拿州",
+    "city_zh": "比灵斯"
+  },
+  "San Jose": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "圣荷西"
+  },
+  "North Las Vegas": {
+    "state_abbr": "NV",
+    "state": "Nevada",
+    "state_zh": "内华达州",
+    "city_zh": "北拉斯维加斯"
+  },
+  "Rockford": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "罗克福德"
+  },
+  "Paterson": {
+    "state_abbr": "NJ",
+    "state": "New Jersey",
+    "state_zh": "新泽西州",
+    "city_zh": "帕特森"
+  },
+  "McKinney": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "麦金尼"
+  },
+  "Newark": {
+    "state_abbr": "NJ",
+    "state": "New Jersey",
+    "state_zh": "新泽西州",
+    "city_zh": "纽瓦克"
+  },
+  "Moreno Valley": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "莫雷诺谷"
+  },
+  "San Antonio": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "圣安东尼奥"
+  },
+  "Columbia": {
+    "state_abbr": "SC",
+    "state": "South Carolina",
+    "state_zh": "南卡罗来纳州",
+    "city_zh": "哥伦比亚f[›]"
+  },
+  "New Haven": {
+    "state_abbr": "CT",
+    "state": "Connecticut",
+    "state_zh": "康涅狄格州",
+    "city_zh": "纽黑文"
+  },
+  "Jersey City": {
+    "state_abbr": "NJ",
+    "state": "New Jersey",
+    "state_zh": "新泽西州",
+    "city_zh": "泽西城"
+  },
+  "Cary": {
+    "state_abbr": "NC",
+    "state": "North Carolina",
+    "state_zh": "北卡罗来纳州",
+    "city_zh": "卡瑞市"
+  },
+  "Lansing": {
+    "state_abbr": "MI",
+    "state": "Michigan",
+    "state_zh": "密歇根州",
+    "city_zh": "兰盛f[›]"
+  },
+  "Cedar Rapids": {
+    "state_abbr": "IA",
+    "state": "Iowa",
+    "state_zh": "爱阿华州",
+    "city_zh": "锡达拉皮兹"
+  },
+  "Huntsville": {
+    "state_abbr": "AL",
+    "state": "Alabama",
+    "state_zh": "亚拉巴马州",
+    "city_zh": "亨茨维尔"
+  },
+  "Antioch": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "安条克"
+  },
+  "Pueblo": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "普韦布洛"
+  },
+  "Los Angeles": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "洛杉矶"
+  },
+  "Allentown": {
+    "state_abbr": "PA",
+    "state": "Pennsylvania",
+    "state_zh": "宾夕法尼亚州",
+    "city_zh": "阿伦敦"
+  },
+  "Hartford": {
+    "state_abbr": "CT",
+    "state": "Connecticut",
+    "state_zh": "康涅狄格州",
+    "city_zh": "哈特福德f[›]"
+  },
+  "Mesa": {
+    "state_abbr": "AZ",
+    "state": "Arizona",
+    "state_zh": "亚利桑那州",
+    "city_zh": "梅萨"
+  },
+  "Midland": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "米德兰"
+  },
+  "Peoria": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "皮奥里亚"
+  },
+  "Lubbock": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "拉伯克"
+  },
+  "Abilene": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "阿比林"
+  },
+  "Waterbury": {
+    "state_abbr": "CT",
+    "state": "Connecticut",
+    "state_zh": "康涅狄格州",
+    "city_zh": "沃特伯里"
+  },
+  "Laredo": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "拉雷多"
+  },
+  "Orlando": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "奥兰多"
+  },
+  "Garden Grove": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "园林市"
+  },
+  "Tampa": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "坦帕"
+  },
+  "Carrollton": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "卡罗尔顿"
+  },
+  "Shreveport": {
+    "state_abbr": "LA",
+    "state": "Louisiana",
+    "state_zh": "路易斯安那州",
+    "city_zh": "什里夫波特"
+  },
+  "El Paso": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "厄尔巴索"
+  },
+  "Colorado Springs": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "科罗拉多泉"
+  },
+  "Memphis": {
+    "state_abbr": "TN",
+    "state": "Tennessee",
+    "state_zh": "田纳西州",
+    "city_zh": "孟菲斯"
+  },
+  "Fairfield": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "费尔菲尔德"
+  },
+  "Gainesville": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "盖恩斯维尔"
+  },
+  "Providence": {
+    "state_abbr": "RI",
+    "state": "Rhode Island",
+    "state_zh": "罗得岛州",
+    "city_zh": "普洛威顿斯f[›]"
+  },
+  "Visalia": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "维塞利亚"
+  },
+  "Tacoma": {
+    "state_abbr": "WA",
+    "state": "Washington",
+    "state_zh": "华盛顿州",
+    "city_zh": "塔科马"
+  },
+  "Nashville": {
+    "state_abbr": "TN",
+    "state": "Tennessee",
+    "state_zh": "田纳西州",
+    "city_zh": "纳什维尔a[›]f[›]"
+  },
+  "Erie": {
+    "state_abbr": "PA",
+    "state": "Pennsylvania",
+    "state_zh": "宾夕法尼亚州",
+    "city_zh": "伊利"
+  },
+  "Little Rock": {
+    "state_abbr": "AR",
+    "state": "Arkansas",
+    "state_zh": "阿肯色州",
+    "city_zh": "小石城f[›]"
+  },
+  "Lincoln": {
+    "state_abbr": "NB",
+    "state": "Nebraska",
+    "state_zh": "内布拉斯加州",
+    "city_zh": "林肯f[›]"
+  },
+  "Garland": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "加兰"
+  },
+  "Savannah": {
+    "state_abbr": "GA",
+    "state": "Georgia",
+    "state_zh": "佐治亚州",
+    "city_zh": "沙瓦纳"
+  },
+  "South Bend": {
+    "state_abbr": "IN",
+    "state": "Indiana",
+    "state_zh": "印地安纳州",
+    "city_zh": "南本德"
+  },
+  "Norwalk": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "诺沃克"
+  },
+  "Charlotte": {
+    "state_abbr": "NC",
+    "state": "North Carolina",
+    "state_zh": "北卡罗来纳州",
+    "city_zh": "夏洛特"
+  },
+  "Salem": {
+    "state_abbr": "OR",
+    "state": "Oregon",
+    "state_zh": "俄勒冈州",
+    "city_zh": "塞勒姆f[›]"
+  },
+  "Killeen": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "基林"
+  },
+  "Cambridge": {
+    "state_abbr": "MA",
+    "state": "Massachusetts",
+    "state_zh": "马萨诸塞州",
+    "city_zh": "剑桥"
+  },
+  "Minneapolis": {
+    "state_abbr": "MN",
+    "state": "Minnesota",
+    "state_zh": "明尼苏达州",
+    "city_zh": "明尼阿波利斯"
+  },
+  "Denver": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "丹佛f[›]"
+  },
+  "Bellevue": {
+    "state_abbr": "WA",
+    "state": "Washington",
+    "state_zh": "华盛顿州",
+    "city_zh": "贝尔维尤"
+  },
+  "Roseville": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "罗斯维尔"
+  },
+  "Las Vegas": {
+    "state_abbr": "NV",
+    "state": "Nevada",
+    "state_zh": "内华达州",
+    "city_zh": "拉斯维加斯"
+  },
+  "Coral Springs": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "科勒尔斯普林斯"
+  },
+  "Chattanooga": {
+    "state_abbr": "TN",
+    "state": "Tennessee",
+    "state_zh": "田纳西州",
+    "city_zh": "查塔诺加"
+  },
+  "Evansville": {
+    "state_abbr": "IN",
+    "state": "Indiana",
+    "state_zh": "印地安纳州",
+    "city_zh": "埃文斯维尔"
+  },
+  "Albuquerque": {
+    "state_abbr": "NM",
+    "state": "New Mexico",
+    "state_zh": "新墨西哥州",
+    "city_zh": "阿布奎基"
+  },
+  "Elk Grove": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "埃尔克格罗夫"
+  },
+  "Irvine": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "尔湾"
+  },
+  "Santa Rosa": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "圣罗莎"
+  },
+  "Warren": {
+    "state_abbr": "MI",
+    "state": "Michigan",
+    "state_zh": "密歇根州",
+    "city_zh": "沃伦"
+  },
+  "Charleston": {
+    "state_abbr": "SC",
+    "state": "South Carolina",
+    "state_zh": "南卡罗来纳州",
+    "city_zh": "查尔斯顿"
+  },
+  "Baton Rouge": {
+    "state_abbr": "LA",
+    "state": "Louisiana",
+    "state_zh": "路易斯安那州",
+    "city_zh": "巴吞鲁日f[›]"
+  },
+  "New York": {
+    "state_abbr": "NY",
+    "state": "New York",
+    "state_zh": "纽约州",
+    "city_zh": "纽约e[›]"
+  },
+  "Vallejo": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "瓦列霍"
+  },
+  "Spokane": {
+    "state_abbr": "WA",
+    "state": "Washington",
+    "state_zh": "华盛顿州",
+    "city_zh": "斯波坎"
+  },
+  "Chandler": {
+    "state_abbr": "AZ",
+    "state": "Arizona",
+    "state_zh": "亚利桑那州",
+    "city_zh": "钱德勒"
+  },
+  "Thousand Oaks": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "千橡市"
+  },
+  "Corpus Christi": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "科珀斯克里斯蒂"
+  },
+  "Gilbert": {
+    "state_abbr": "AZ",
+    "state": "Arizona",
+    "state_zh": "亚利桑那州",
+    "city_zh": "吉尔伯特"
+  },
+  "Oklahoma City": {
+    "state_abbr": "OK",
+    "state": "Oklahoma",
+    "state_zh": "俄克拉荷马州",
+    "city_zh": "俄克拉荷马城f[›]"
+  },
+  "Dallas": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "达拉斯"
+  },
+  "Berkeley": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "柏克莱"
+  },
+  "Lakewood": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "莱克伍德"
+  },
+  "Honolulu": {
+    "state_abbr": "HI",
+    "state": "Hawai'i",
+    "state_zh": "夏威夷州",
+    "city_zh": "檀香山b[›]f[›]"
+  },
+  "Palmdale": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "棕榈谷"
+  },
+  "Tempe": {
+    "state_abbr": "AZ",
+    "state": "Arizona",
+    "state_zh": "亚利桑那州",
+    "city_zh": "坦佩"
+  },
+  "Thornton": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "桑顿"
+  },
+  "Springfield": {
+    "state_abbr": "IL",
+    "state": "Illinois",
+    "state_zh": "伊利诺伊州",
+    "city_zh": "斯普林菲尔德f[›]"
+  },
+  "Knoxville": {
+    "state_abbr": "TN",
+    "state": "Tennessee",
+    "state_zh": "田纳西州",
+    "city_zh": "诺克斯维尔"
+  },
+  "Houston": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "休斯顿"
+  },
+  "Buffalo": {
+    "state_abbr": "NY",
+    "state": "New York",
+    "state_zh": "纽约州",
+    "city_zh": "布法罗"
+  },
+  "Jackson": {
+    "state_abbr": "MS",
+    "state": "Mississippi",
+    "state_zh": "密西西比州",
+    "city_zh": "杰克逊f[›]"
+  },
+  "Denton": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "登顿"
+  },
+  "St. Paul": {
+    "state_abbr": "MN",
+    "state": "Minnesota",
+    "state_zh": "明尼苏达州",
+    "city_zh": "圣保罗f[›]"
+  },
+  "Mobile": {
+    "state_abbr": "AL",
+    "state": "Alabama",
+    "state_zh": "亚拉巴马州",
+    "city_zh": "莫比尔"
+  },
+  "Wichita": {
+    "state_abbr": "KS",
+    "state": "Kansas",
+    "state_zh": "堪萨斯州",
+    "city_zh": "威奇托"
+  },
+  "Raleigh": {
+    "state_abbr": "NC",
+    "state": "North Carolina",
+    "state_zh": "北卡罗来纳州",
+    "city_zh": "罗利f[›]"
+  },
+  "Hialeah": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "海厄利亚"
+  },
+  "Tulsa": {
+    "state_abbr": "OK",
+    "state": "Oklahoma",
+    "state_zh": "俄克拉荷马州",
+    "city_zh": "图尔萨"
+  },
+  "Brownsville": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "布朗斯维尔"
+  },
+  "Green Bay": {
+    "state_abbr": "WI",
+    "state": "Wisconsin",
+    "state_zh": "威斯康星州",
+    "city_zh": "格林贝"
+  },
+  "Pasadena": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "帕萨迪纳"
+  },
+  "Austin": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "奥斯汀f[›]"
+  },
+  "McAllen": {
+    "state_abbr": "TX",
+    "state": "Texas",
+    "state_zh": "德克萨斯州",
+    "city_zh": "麦卡伦"
+  },
+  "Westminster": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "西敏"
+  },
+  "Miramar": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "米拉马尔"
+  },
+  "Lafayette": {
+    "state_abbr": "LA",
+    "state": "Louisiana",
+    "state_zh": "路易斯安那州",
+    "city_zh": "拉法叶"
+  },
+  "Augusta": {
+    "state_abbr": "GA",
+    "state": "Georgia",
+    "state_zh": "佐治亚州",
+    "city_zh": "奥古斯塔a[›]"
+  },
+  "Salt Lake City": {
+    "state_abbr": "UT",
+    "state": "Utah",
+    "state_zh": "犹他州",
+    "city_zh": "盐湖城f[›]"
+  },
+  "Fontana": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "方塔纳"
+  },
+  "Reno": {
+    "state_abbr": "NV",
+    "state": "Nevada",
+    "state_zh": "内华达州",
+    "city_zh": "雷诺"
+  },
+  "Elizabeth": {
+    "state_abbr": "NJ",
+    "state": "New Jersey",
+    "state_zh": "新泽西州",
+    "city_zh": "伊丽莎白"
+  },
+  "Cape Coral": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "开普科勒尔"
+  },
+  "West Covina": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "西柯汶纳"
+  },
+  "Fort Collins": {
+    "state_abbr": "CO",
+    "state": "Colorado",
+    "state_zh": "科罗拉多州",
+    "city_zh": "科林斯堡"
+  },
+  "Louisville": {
+    "state_abbr": "KY",
+    "state": "Kentucky",
+    "state_zh": "肯塔基州",
+    "city_zh": "路易斯维尔a[›]"
+  },
+  "Columbus": {
+    "state_abbr": "GA",
+    "state": "Georgia",
+    "state_zh": "佐治亚州",
+    "city_zh": "哥伦布"
+  },
+  "Chula Vista": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "丘拉维斯塔"
+  },
+  "Cincinnati": {
+    "state_abbr": "OH",
+    "state": "Ohio",
+    "state_zh": "俄亥俄州",
+    "city_zh": "辛辛那提"
+  },
+  "Costa Mesa": {
+    "state_abbr": "CA",
+    "state": "California",
+    "state_zh": "加利福尼亚州",
+    "city_zh": "科斯塔梅萨"
+  },
+  "Newport News": {
+    "state_abbr": "VA",
+    "state": "Virginia",
+    "state_zh": "弗吉尼亚州",
+    "city_zh": "纽波特纽斯d[›]"
+  },
+  "Pompano Beach": {
+    "state_abbr": "FL",
+    "state": "Florida",
+    "state_zh": "佛罗利达州",
+    "city_zh": "庞帕诺比奇"
+  },
+  "Worcester": {
+    "state_abbr": "MA",
+    "state": "Massachusetts",
+    "state_zh": "马萨诸塞州",
+    "city_zh": "乌斯特"
+  },
+  "Stamford": {
+    "state_abbr": "CT",
+    "state": "Connecticut",
+    "state_zh": "康涅狄格州",
+    "city_zh": "斯坦福"
+  }
+}

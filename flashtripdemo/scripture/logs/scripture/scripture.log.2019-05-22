@@ -1,0 +1,6 @@
+[2019-05-24 15:32:41] ERROR - scripture.pipelines.mongo_pipeline: Exception
+Traceback (most recent call last):
+  File "/Users/huangjack/PycharmProjects/scripture/scripture/pipelines/mongo_pipeline.py", line 205, in process_item
+    yield self._processor(item)
+pymongo.errors.AutoReconnect: TxMongo lost connection to MongoDB.
+[2019-05-24 15:32:41] INFO - scripture.pipelines.mongo_pipeline: item入库错误

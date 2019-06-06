@@ -1,0 +1,15 @@
+[2019-05-24 15:32:43] INFO - scripture.middlewares.proxy: process_exception开始删除代理
+[2019-05-24 15:32:43] INFO - scripture.middlewares.proxy: process_exception删除代理163.204.244.91:9999成功
+[2019-05-24 15:32:43] INFO - scripture.middlewares.proxy: process_exception开始删除代理
+[2019-05-24 15:32:43] INFO - scripture.middlewares.proxy: process_exception删除代理1.20.103.135:46106成功
+[2019-05-24 15:32:46] INFO - scripture.middlewares.proxy: process_exception开始删除代理
+[2019-05-24 15:32:46] INFO - scripture.middlewares.proxy: process_exception删除代理211.141.111.114:61395成功
+[2019-05-24 15:32:47] INFO - scripture.middlewares.proxy: process_exception开始删除代理
+[2019-05-24 15:32:47] INFO - scripture.middlewares.proxy: process_exception删除代理65.52.174.40:80成功
+[2019-05-24 15:32:52] INFO - scripture.middlewares.proxy: process_response开始删除代理
+[2019-05-24 15:32:52] INFO - scripture.middlewares.proxy: process_response删除代理172.104.56.145:3128成功
+[2019-05-24 15:32:54] INFO - scripture.middlewares.proxy: process_exception开始删除代理
+[2019-05-24 15:32:54] INFO - scripture.middlewares.proxy: process_exception删除代理112.87.69.229:9999成功
+[2019-05-24 15:32:55] ERROR - scripture.api.TripAdvisor: Not found address.street
+[2019-05-24 15:32:55] ERROR - scripture.api.TripAdvisor: Not found address.postal_code
+[2019-05-24 15:32:55] ERROR - scripture.api.TripAdvisor: Not found address.locality

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>datas</title>
+    <style>
+        .a{
+            width: 300px;
+            height: 30px;
+
+        }
+        .b{
+            width: 400px;
+            text-align: right;
+        }
+        .c{
+            width: 410px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function uploadForm(){
+            var xmlhttp = new XMLHttpRequest();
+            var prob_obj = document.getElementById('matchProb');
+            var value = prob_obj.value;
+            var fd = new FormData(document.getElementById("hotelInfo"));
+            fd.append('opt','form');
+            fd.append('prob',value);
+            xmlhttp.open("POST", "/views/match/hotels", true);
+            xmlhttp.send(fd);
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("formSimHotel").innerHTML=xmlhttp.responseText;
+                }
+            };
+        }
+    </script>
+    <script>
+        function uploadFile(){
+            var xmlhttp = new XMLHttpRequest();
+            var prob_obj = document.getElementById('matchProb');
+            var value = prob_obj.value;
+            var file_obj = document.getElementById('excel').files[0];
+            var fd = new FormData();
+            fd.append('opt','excel');
+            fd.append('excel',file_obj);
+            fd.append('prob',value);
+            xmlhttp.open("POST", "/views/match/hotels", true);
+            xmlhttp.send(fd);
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("excelSimHotel").innerHTML=xmlhttp.responseText;
+                }
+            };
+        }
+    </script>
+    <script>
+        function clear_form_result()
+        {
+            document.getElementById("formSimHotel").innerHTML='';
+        }
+    </script>
+    <script>
+        function clear_excel_result()
+        {
+            document.getElementById("excelSimHotel").innerHTML='';
+        }
+    </script>
+
+</head>
+<body>
+    <h3>请选择匹配相似度(0~1)</h3>
+    <span>注：相似度越低,结果集越大(默认0.8)</span>
+    <br><br>
+    <input  class="a" type="text" id="matchProb" value=0.8>
+    <br><br>
+    <h3>请填写酒店信息并开始匹配</h3>
+    <span>注：酒店名应为英文且是必填项</span>
+    <div class="c">
+        <div class="b">
+            <form id="hotelInfo"><br>
+                酒店名: <input  name="name" type="text" class="a"> <br><br>
+                酒店供应商:<input  name="provider" type="text" class="a"> <br><br>
+                酒店ID:<input  name="code" type="text" class="a"> <br><br>
+                酒店地址:<input  name="address" type="text" class="a"> <br><br>
+                酒店属国:<input  name="country" type="text" class="a"> <br><br>
+            </form>
+        </div>
+        <input type="button" value="开始匹配" onclick="uploadForm()" style="width:100px; height:40px">
+        <input type="button" value="点击收起" onclick="clear_form_result()">
+        <br><br>
+    </div>
+    <div id="formSimHotel"></div>
+    <h3>请上传excel文档以开始批量匹配</h3>
+    <span>注：酒店名 | 酒店供应商 | 酒店ID | 酒店地址 | 酒店属国</span>
+    <div class="c">
+        <br>
+        <input  class="file" type="file" id="excel" name="" >
+        <br><br>
+        <input type="button" value="上传文件" onclick="uploadFile()">
+        <input type="button" value="点击收起" onclick="clear_excel_result()">
+        <br><br>
+    </div>
+    <div id="excelSimHotel"></div>
+</body>
+</html>

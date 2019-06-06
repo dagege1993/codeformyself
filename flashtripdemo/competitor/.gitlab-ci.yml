@@ -1,0 +1,10 @@
+image: registry-vpc.cn-beijing.aliyuncs.com/weegotr_com/builder:latest
+
+stages:
+  - release
+
+build-tasks-image:
+  stage: release
+  script:
+    - wgci release
+  when: manual

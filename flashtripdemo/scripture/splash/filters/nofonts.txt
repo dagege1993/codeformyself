@@ -1,0 +1,6 @@
+! put this to a /etc/splash/filters/nofonts.txt file
+! comments start with an exclamation mark
+
+.ttf|
+.woff|
+.woff2|

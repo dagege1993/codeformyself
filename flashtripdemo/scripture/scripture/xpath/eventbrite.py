@@ -1,0 +1,11 @@
+# coding: utf-8
+LINK_SHARE = './@data-share-url'
+LINK = './a/@href'
+TITLE_SHARE = './@data-share-name'
+TITLE = './a/div[@class="list-card__body"]/div[@class="list-card__title"]/text()'
+PRICE = './a/div[@class="list-card__header"]/span/text()'
+IMG_URL = './a/div[@class="list-card__header"]/div/img/@src'
+DATE = './a/div[@class="list-card__body"]/time/text()'
+VENUE = './a/div[@class="list-card__body"]/div[@class="list-card__venue"]/text()'
+TAGS = './div/div[@class="list-card__tags"]/a/text()'
+TAGS_SPAN = './div/div[@class="list-card__tags"]/a/span/text()'

@@ -1,0 +1,6 @@
+{"asctime": "2019-05-17 16:00:02", "name": "celery.worker", "message": "{'_id': ObjectId('59427a577157f7428fe4d6c0'), 'city': ObjectId('59291cbbb980cb5ec758841d'), 'quote_ids': [{'quoter': ObjectId('59b0b035a389295de92f4814'), '_id': ObjectId('59e9c094130386462c752251'), 'hotel_id': '182071'}, {'quoter': ObjectId('59c1f0f8e1812033000e1de8'), '_id': ObjectId('59f694deb7dc5b6a9dc7b60a'), 'hotel_id': '225835'}, {'_id': ObjectId('5b88eadc8f8b27001c224e83'), 'quoter': ObjectId('59b0b048a389295de92f4815'), 'hotel_id': '150849'}], 'min_booking_days': 1} None None 130 False", "levelname": "INFO"}
+{"asctime": "2019-05-17 16:00:24", "name": "celery.worker", "message": "59427a577157f7428fe4d6c0 get 130 price use 21 seconds", "levelname": "INFO"}
+{"asctime": "2019-05-17 16:00:24", "name": "celery.worker", "message": "59427a577157f7428fe4d6c0 without price in 130days", "levelname": "WARNING"}
+{"asctime": "2019-05-17 16:00:24", "name": "celery.worker", "message": "calculate: [] of 59427a577157f7428fe4d6c0 and do_bug_price is : False", "levelname": "INFO"}
+{"asctime": "2019-05-17 16:00:24", "name": "celery.worker", "message": "59427a577157f7428fe4d6c0 remove_prices use 0 seconds", "levelname": "INFO"}
+{"asctime": "2019-05-17 16:00:24", "name": "celery.worker", "message": "update succeed", "levelname": "DEBUG"}

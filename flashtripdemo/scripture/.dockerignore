@@ -1,0 +1,6 @@
+.git
+*.pyc
+*.pyo
+*.swp
+*.swo
+__pycache__

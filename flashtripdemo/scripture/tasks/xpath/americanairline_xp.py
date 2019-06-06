@@ -1,0 +1,17 @@
+RECORD_LOCATOR = '*//div[1]/table/tr/td[2]/table/tr[2]/td/strong/font/text()'
+NOTICE_1 = '*//div[1]/table/tr/td[2]/table/tr[3]/td'
+RELATED_LINK_1 = '*//div[1]/table/tr/td[2]/table/tr[3]/td/a/@href'
+RELATED_TEXT_1 = '*//div[1]/table/tr/td[2]/table/tr[3]/td/a/text()'
+# itinerary
+INFO_1 = '*//div[1]/table[2]/tr/td/table/tr[3]/td/text()'
+INFO_2 = '*//div[1]/table[2]/tr/td/table/tr[4]/td/text()'
+INFO_3 = '*//div[1]/table[2]/tr/td/table/tr[5]/td/text()'
+INFO_4 = '*//div[1]/table[2]/tr/td/table/tr[6]/td/div/text()'
+INFO_5 = '*//div[1]/table[2]/tr/td/table/tr[7]/td/text()'
+# receipt
+INFO_6 = '*//div/table[3]/tr/td/table[1]'
+TOTAL = '*//div/table[3]/tr/td/table[5]/tr/td[2]/text()'
+NOTICE_2 = '*//div/table[4]/tr/td/font/p[1]/text()'
+NOTICE_3 = '*//div/table[4]/tr/td/font/p[2]'
+RELATED_LINK_3 = '*//div/table[4]/tr/td/font/p[2]/a/@href'
+RELATED_TEXT_3 = '*//div/table[4]/tr/td/font/p[2]/a/text()'
