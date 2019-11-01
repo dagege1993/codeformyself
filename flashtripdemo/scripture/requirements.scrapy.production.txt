@@ -84,7 +84,7 @@ simhash==1.9.0
 six==1.12.0
 SQLAlchemy==1.3.3
 stem==1.7.0
-Twisted==18.9.0
+Twisted==19.7.0
 txmongo==19.1.0
 tzlocal==1.5.1
 ujson==1.35
