@@ -1,4 +1,4 @@
-aiohttp==3.4.4
+aiohttp==3.7.4
 aliyun-python-sdk-cdn==3.0.1
 aliyun-python-sdk-core==2.13.2
 aliyun-python-sdk-core-v3==2.9.4
