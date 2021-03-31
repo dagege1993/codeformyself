@@ -37,7 +37,7 @@ jdcal==1.4
 jmespath==0.9.4
 Js2Py==0.59
 kombu==4.2.1
-lxml==4.2.5
+lxml==4.6.3
 motor==2.0.0
 multidict==4.4.2
 numpy==1.15.3
