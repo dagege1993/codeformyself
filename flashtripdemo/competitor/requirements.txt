@@ -2,7 +2,7 @@ aiocontextvars==0.2.1
 aiohttp==3.4.4
 aioredis==1.1.0
 async-timeout==3.0.1
-asyncpg==0.18.2
+asyncpg==0.21.0
 attrs==19.1.0
 chardet==3.0.4
 contextvars==2.3
