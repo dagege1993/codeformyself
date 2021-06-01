@@ -88,7 +88,7 @@ Twisted==18.9.0
 txmongo==19.1.0
 tzlocal==1.5.1
 ujson==1.35
-urllib3==1.24
+urllib3==1.26.5
 uvloop==0.12.0
 vine==1.1.4
 w3lib==1.19.0
